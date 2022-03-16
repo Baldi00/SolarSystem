@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InfosMenuMoons_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: c12bf831c1d936345a7a5a51ecf025e2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 507136045056
+    m_Localized: Phobos (Marte I)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522063572992
+    m_Localized: Deimos (Marte II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534579376128
+    m_Localized: Io (Giove I)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552933650432
+    m_Localized: Europa (Giove II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573368299520
+    m_Localized: Ganimede (Giove III)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612194971648
+    m_Localized: Callisto (Giove IV)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 629773299712
+    m_Localized: Mimas (Saturno I)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644503695360
+    m_Localized: Encelado (Saturno II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 667287154688
+    m_Localized: Teti (Saturno III)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698694103040
+    m_Localized: Dione (Saturno IV)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734798671872
+    m_Localized: Rea (Saturno V)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750573449216
+    m_Localized: Titano (Saturno VI)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 765668749312
+    m_Localized: Giapeto (Saturno VII)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 787680456704
+    m_Localized: Ariel (Urano I)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805464305664
+    m_Localized: Umbriel (Urano II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820932898816
+    m_Localized: Titania (Urano III)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 898141646848
+    m_Localized: Oberon (Urano IV)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936595025920
+    m_Localized: Miranda (Urano V)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 952868925440
+    m_Localized: Tritone (Nettuno I)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2335546404864
+    m_Localized: Luna (Terra I)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: InfosMenuMoons Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: InfosMenuMoons
+  m_TableCollectionNameGuidString: c12bf831c1d936345a7a5a51ecf025e2
+  m_Entries:
+  - m_Id: 507136045056
+    m_Key: PhobosTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522063572992
+    m_Key: DeimosTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534579376128
+    m_Key: IoTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552933650432
+    m_Key: EuropaTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573368299520
+    m_Key: GanymedeTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612194971648
+    m_Key: CallistoTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 629773299712
+    m_Key: MimasTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644503695360
+    m_Key: EnceladusTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 667287154688
+    m_Key: TethysTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698694103040
+    m_Key: DioneTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734798671872
+    m_Key: RheaTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750573449216
+    m_Key: TitanTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 765668749312
+    m_Key: IapetusTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 787680456704
+    m_Key: ArielTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805464305664
+    m_Key: UmbrielTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 820932898816
+    m_Key: TitaniaTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 898141646848
+    m_Key: OberonTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936595025920
+    m_Key: MirandaTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 952868925440
+    m_Key: TritonTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2335546404864
+    m_Key: MoonTitle
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1647343622351
