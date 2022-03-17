@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: it
-  m_SharedData: {fileID: 11400000, guid: 2d5ed8d5a39c5fb4483dfcd25f1d519d, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 4dfbf1a7d76111f4f94186875d9ec1d1, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 4859752448
+  - m_Id: 8970170368
     m_Localized: 1 secondo = 1 mese
     m_Metadata:
       m_Items: []

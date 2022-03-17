@@ -15,53 +15,59 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_Data:
     m_SerializedData: []
-  m_GUID: 819e30398cc1f9f4facbd9dc812b83cf
+  m_GUID: df1f30a94c160244cb8c270f3424fbb5
   m_SerializeEntries:
-  - m_GUID: 85d6fdd661ed1e040b8f8e5418b58277
-    m_Address: TitleScreen_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: afd8bcbc5da176b46ac9f625a5790a39
-    m_Address: PlanetsInfo_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: 3e492809279140747b94feab9066f096
-    m_Address: PlanetNames_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Preload
-  - m_GUID: ed9a1d6885c62d34abd93ad048c7e6cc
+  - m_GUID: 0fba7b7d434de624ebabf465c02270d5
     m_Address: OrbitInfo_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: 7c0e2f036e7044f45b5df30cccf1eaf9
+  - m_GUID: 80a57d940c66aa8498d49211b4858d6a
     m_Address: InfosMenu_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: ad1911ecc493be546bb614ff90f38af2
+  - m_GUID: 2305e992301a3284b935bc8f896bdafc
     m_Address: InfosMenuMoons_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
-  - m_GUID: 7109326a0fb8da74fa8f03b5b22c2a78
+  - m_GUID: cf620fe0c44b815469f89fcec77c684e
     m_Address: PlanetInfoCommands_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: cc0b8640d7ae5ec42a85c2bd10325b93
+    m_Address: PlanetNames_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 54c2f78255295264da600262b9930859
+    m_Address: PlanetsInfo_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 8c65234c6de28b741bc91a36ca08ee7d
+    m_Address: TitleScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 809bb2064751f8a4bb9ba6ab2fcb1e5f
+    m_Address: ToggleSizesLabel_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 7072068eb9b322d4f93d1ce2bba2aed3, type: 2}
+  m_Settings: {fileID: 11400000, guid: 68c890a55333a444c84d4c10881083a1, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: cb6ca5f7b216a2142bfffdf1b62b226e, type: 2}
-    - {fileID: 11400000, guid: 7af7a7c58b3bed6408f5c4c7ac861a97, type: 2}
+    - {fileID: 11400000, guid: 649f59335640c3a4daf2f218fcf23aaf, type: 2}
+    - {fileID: 11400000, guid: feebe478a0f04764586f64c404d5706e, type: 2}

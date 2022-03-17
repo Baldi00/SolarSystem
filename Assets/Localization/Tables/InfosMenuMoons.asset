@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
   m_Name: InfosMenuMoons
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: c12bf831c1d936345a7a5a51ecf025e2, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 4ef49927f502b7a4aa7eafa5017d3b1e, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: ad1911ecc493be546bb614ff90f38af2, type: 2}
-  - {fileID: 11400000, guid: 95252a04fc726db4fbe94e712fdd65da, type: 2}
+  - {fileID: 11400000, guid: 2305e992301a3284b935bc8f896bdafc, type: 2}
+  - {fileID: 11400000, guid: c22da1a9407ac034c9e1aa2b0c03ebe6, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

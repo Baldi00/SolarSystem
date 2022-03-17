@@ -13,65 +13,65 @@ MonoBehaviour:
   m_Name: InfosMenu Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: InfosMenu
-  m_TableCollectionNameGuidString: 0ece7754ababa5b46a6f7a41596921a3
+  m_TableCollectionNameGuidString: 5b5f92f23e2f463439687f5a21c8cec3
   m_Entries:
-  - m_Id: 23864143872
+  - m_Id: 166554365952
     m_Key: InfosAbout
     m_Metadata:
       m_Items: []
-  - m_Id: 101672677376
+  - m_Id: 170648006656
     m_Key: Sun&SS
     m_Metadata:
       m_Items: []
-  - m_Id: 217603239936
+  - m_Id: 174372548608
     m_Key: Planets
     m_Metadata:
       m_Items: []
-  - m_Id: 265216978944
+  - m_Id: 177895763968
     m_Key: Mercury
     m_Metadata:
       m_Items: []
-  - m_Id: 292630949888
+  - m_Id: 181251207168
     m_Key: Venus
     m_Metadata:
       m_Items: []
-  - m_Id: 307428454400
+  - m_Id: 186150154240
     m_Key: Earth
     m_Metadata:
       m_Items: []
-  - m_Id: 317528338432
+  - m_Id: 187794321408
     m_Key: Mars
     m_Metadata:
       m_Items: []
-  - m_Id: 327527559168
+  - m_Id: 189438488576
     m_Key: Jupiter
     m_Metadata:
       m_Items: []
-  - m_Id: 341821747200
+  - m_Id: 190680002560
     m_Key: Saturn
     m_Metadata:
       m_Items: []
-  - m_Id: 359169388544
+  - m_Id: 191552417792
     m_Key: Uranus
     m_Metadata:
       m_Items: []
-  - m_Id: 369369935872
+  - m_Id: 192424833024
     m_Key: Neptune
     m_Metadata:
       m_Items: []
-  - m_Id: 391079653376
+  - m_Id: 193431465984
     m_Key: Pluto
     m_Metadata:
       m_Items: []
-  - m_Id: 402320388096
+  - m_Id: 194505207808
     m_Key: Satellites
     m_Metadata:
       m_Items: []
-  - m_Id: 413863112704
+  - m_Id: 195646058496
     m_Key: WhereAreWe
     m_Metadata:
       m_Items: []
-  - m_Id: 898590437376
+  - m_Id: 197457997824
     m_Key: Missions&Photos
     m_Metadata:
       m_Items: []
@@ -85,4 +85,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647342991022
+        m_CustomEpoch: 1647505778508

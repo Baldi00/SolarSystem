@@ -15,39 +15,43 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_Data:
     m_SerializedData: []
-  m_GUID: 2f9d2da185788684db4f9c2f0d431265
+  m_GUID: 5da1a25baa497d244b29e0561e41bb10
   m_SerializeEntries:
-  - m_GUID: 8dee73bb318b8994398c9cb68640e32c
-    m_Address: Assets/Localization/Tables/TitleScreen Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 44f953f5d37f0ad44980edb3a3f4be06
-    m_Address: Assets/Localization/Tables/PlanetsInfo Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 89ad1afed8ba7734f9f1327b2145e290
-    m_Address: Assets/Localization/Tables/PlanetNames Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 2d5ed8d5a39c5fb4483dfcd25f1d519d
+  - m_GUID: 4dfbf1a7d76111f4f94186875d9ec1d1
     m_Address: Assets/Localization/Tables/OrbitInfo Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: 0ece7754ababa5b46a6f7a41596921a3
+  - m_GUID: 5b5f92f23e2f463439687f5a21c8cec3
     m_Address: Assets/Localization/Tables/InfosMenu Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: c12bf831c1d936345a7a5a51ecf025e2
+  - m_GUID: 4ef49927f502b7a4aa7eafa5017d3b1e
     m_Address: Assets/Localization/Tables/InfosMenuMoons Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
-  - m_GUID: d381e3c2a80a801408b3cccd90770f21
+  - m_GUID: 2689cc6f056252943a40f47fcab011cd
     m_Address: Assets/Localization/Tables/PlanetInfoCommands Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: eb08630e3aaabb549b9c7b83353938f6
+    m_Address: Assets/Localization/Tables/PlanetNames Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 838613aecf94ed8478d58314150499c0
+    m_Address: Assets/Localization/Tables/PlanetsInfo Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 3911985912c18a045b387195c915d449
+    m_Address: Assets/Localization/Tables/TitleScreen Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2236dae746f76be429c9398a4e82916e
+    m_Address: Assets/Localization/Tables/ToggleSizesLabel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 7072068eb9b322d4f93d1ce2bba2aed3, type: 2}
+  m_Settings: {fileID: 11400000, guid: 68c890a55333a444c84d4c10881083a1, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 6fb75532b8f774949a4d829af9d0468d, type: 2}
-    - {fileID: 11400000, guid: 81f089592e2416749a2c836b75038a89, type: 2}
+    - {fileID: 11400000, guid: 0ab23d04276499b4f8d5736f8f0bacb9, type: 2}
+    - {fileID: 11400000, guid: e6bb75e6451b29740a9e7fb4f32e9339, type: 2}

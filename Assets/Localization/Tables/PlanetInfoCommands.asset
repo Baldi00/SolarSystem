@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
   m_Name: PlanetInfoCommands
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: d381e3c2a80a801408b3cccd90770f21, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 2689cc6f056252943a40f47fcab011cd, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: 7109326a0fb8da74fa8f03b5b22c2a78, type: 2}
-  - {fileID: 11400000, guid: 8b425c0115355ac41a403b604070715c, type: 2}
+  - {fileID: 11400000, guid: cf620fe0c44b815469f89fcec77c684e, type: 2}
+  - {fileID: 11400000, guid: 34c111d7bd1bbd0439b4395bcb909390, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

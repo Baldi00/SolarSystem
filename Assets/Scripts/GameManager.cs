@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     private bool movingToJupiter, movingToSaturn, movingToUranus, movingToNeptune, movingToMoon, movingToPluto;
     private GameObject mainMenu, orbits, planetsInOrbit, titleScreenTexts;
     private GameObject sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, moon, ceres, pluto, haumea, makemake, eris;
+    private PlanetRotation sunPlanetRotation, mercuryPlanetRotation, venusPlanetRotation, earthPlanetRotation, marsPlanetRotation, jupiterPlanetRotation, saturnPlanetRotation, uranusPlanetRotation, neptunePlanetRotation, plutoPlanetRotation, ceresPlanetRotation, erisPlanetRotation, haumeaPlanetRotation, makemakePlanetRotation, moonPlanetRotation;
     private GameObject mercuryInfo, venusInfo, earthInfo, marsInfo, jupiterInfo, saturnInfo, uranusInfo, neptuneInfo, moonInfo, ceresInfo, plutoInfo, haumeaInfo, makemakeInfo, erisInfo;
     private FreeCam freeCam;
     private CameraRotateAround camRotateAround;
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     private Transform mercuryCamPos, venusCamPos, earthCamPos, marsCamPos, jupiterCamPos, saturnCamPos, uranusCamPos, neptuneCamPos, plutoCamPos, moonCamPos;
     private GameObject UIMenu, UIPlanetInfo;
     private GameObject bigNotInScaleLabels;
-    private GameObject orbitsInfo;
+    private GameObject toggleSizesLabels, orbitsInfo;
     private bool isInPlanetInfo, isRotatingAroundPlanet;
     private ScrollRect UIPlanetInfoScrollPosition;
 
@@ -84,7 +85,24 @@ public class GameManager : MonoBehaviour
         UIMenu = GameObject.Find("UIMenu");
         UIPlanetInfo = GameObject.Find("UIPlanetInfo");
         orbitsInfo = GameObject.Find("OrbitsInfoCanvas");
+        toggleSizesLabels = GameObject.Find("ToggleSizesLabelsCanvas");
         UIPlanetInfoScrollPosition = UIPlanetInfo.transform.GetChild(0).GetComponent<ScrollRect>();
+
+        sunPlanetRotation = sun.GetComponent<PlanetRotation>();
+		mercuryPlanetRotation = mercury.GetComponent<PlanetRotation>();
+		venusPlanetRotation = venus.GetComponent<PlanetRotation>();
+		earthPlanetRotation = earth.GetComponent<PlanetRotation>();
+		marsPlanetRotation = mars.GetComponent<PlanetRotation>();
+		jupiterPlanetRotation = jupiter.GetComponent<PlanetRotation>();
+		saturnPlanetRotation = saturn.GetComponent<PlanetRotation>();
+		uranusPlanetRotation = uranus.GetComponent<PlanetRotation>();
+		neptunePlanetRotation = neptune.GetComponent<PlanetRotation>();
+		plutoPlanetRotation = pluto.GetComponent<PlanetRotation>();
+		ceresPlanetRotation = ceres.GetComponent<PlanetRotation>();
+		erisPlanetRotation = eris.GetComponent<PlanetRotation>();
+		haumeaPlanetRotation = haumea.GetComponent<PlanetRotation>();
+		makemakePlanetRotation = makemake.GetComponent<PlanetRotation>();
+		moonPlanetRotation = moon.GetComponent<PlanetRotation>();
 
         mainCameraTransition = mainCamera.GetComponent<CameraTransition>();
         freeCam = mainCamera.GetComponent<FreeCam>();
@@ -97,6 +115,7 @@ public class GameManager : MonoBehaviour
         bigNotInScaleLabels.SetActive(false);
         UIMenu.SetActive(false);
         orbitsInfo.SetActive(false);
+        toggleSizesLabels.SetActive(false);
 
         SetAllMovingToFalseAndReset();
     }
@@ -326,6 +345,7 @@ public class GameManager : MonoBehaviour
         bigNotInScaleLabels.SetActive(true);
         mainMenu.SetActive(true);
         orbits.SetActive(false);
+        toggleSizesLabels.SetActive(true);
         planetsInOrbit.SetActive(false);
         movingToSizes = true;
         freeCam.enabled = false;
@@ -550,6 +570,7 @@ public class GameManager : MonoBehaviour
         sun.transform.localScale = new Vector3(1391.4f,1391.4f,1391.4f);
         bigNotInScaleLabels.SetActive(false);
         orbitsInfo.SetActive(false);
+        toggleSizesLabels.SetActive(false);
         SetAllPlanetRotationState(true);
     }
 
@@ -559,20 +580,53 @@ public class GameManager : MonoBehaviour
     }
 
     private void SetAllPlanetRotationState(bool state){
-        sun.GetComponent<PlanetRotation>().enabled = state;
-        mercury.GetComponent<PlanetRotation>().enabled = state;
-        venus.GetComponent<PlanetRotation>().enabled = state;
-        earth.GetComponent<PlanetRotation>().enabled = state;
-        mars.GetComponent<PlanetRotation>().enabled = state;
-        jupiter.GetComponent<PlanetRotation>().enabled = state;
-        saturn.GetComponent<PlanetRotation>().enabled = state;
-        uranus.GetComponent<PlanetRotation>().enabled = state;
-        neptune.GetComponent<PlanetRotation>().enabled = state;
-        pluto.GetComponent<PlanetRotation>().enabled = state;
-        ceres.GetComponent<PlanetRotation>().enabled = state;
-        eris.GetComponent<PlanetRotation>().enabled = state;
-        haumea.GetComponent<PlanetRotation>().enabled = state;
-        makemake.GetComponent<PlanetRotation>().enabled = state;
-        moon.GetComponent<PlanetRotation>().enabled = state;
+        if(sunPlanetRotation!=null)
+            sunPlanetRotation.enabled = state;
+
+        if(mercuryPlanetRotation!=null)
+            mercuryPlanetRotation.enabled = state;
+
+        if(venusPlanetRotation!=null)
+            venusPlanetRotation.enabled = state;
+
+        if(earthPlanetRotation!=null)
+            earthPlanetRotation.enabled = state;
+
+        if(marsPlanetRotation!=null)
+            marsPlanetRotation.enabled = state;
+
+        if(jupiterPlanetRotation!=null)
+            jupiterPlanetRotation.enabled = state;
+
+        if(saturnPlanetRotation!=null)
+            saturnPlanetRotation.enabled = state;
+
+        if(uranusPlanetRotation!=null)
+            uranusPlanetRotation.enabled = state;
+
+        if(neptunePlanetRotation!=null)
+            neptunePlanetRotation.enabled = state;
+
+        if(plutoPlanetRotation!=null)
+            plutoPlanetRotation.enabled = state;
+
+        if(ceresPlanetRotation!=null)
+            ceresPlanetRotation.enabled = state;
+
+        if(erisPlanetRotation!=null)
+            erisPlanetRotation.enabled = state;
+
+        if(haumeaPlanetRotation!=null)
+            haumeaPlanetRotation.enabled = state;
+
+        if(makemakePlanetRotation!=null)
+            makemakePlanetRotation.enabled = state;
+
+        if(moonPlanetRotation!=null)
+            moonPlanetRotation.enabled = state;
+    }
+
+    public void ToggleSizesLabels(){
+        bigNotInScaleLabels.SetActive(!bigNotInScaleLabels.activeSelf);
     }
 }

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
-  m_SharedData: {fileID: 11400000, guid: d381e3c2a80a801408b3cccd90770f21, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 2689cc6f056252943a40f47fcab011cd, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 183528714240
+  - m_Id: 7007236096
     m_Localized: 'Explore Planet = Press P
 
       Enable/Disable Rotation = Press

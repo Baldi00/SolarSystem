@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
   m_Name: OrbitInfo
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 2d5ed8d5a39c5fb4483dfcd25f1d519d, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 4dfbf1a7d76111f4f94186875d9ec1d1, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: ed9a1d6885c62d34abd93ad048c7e6cc, type: 2}
-  - {fileID: 11400000, guid: 066d4b26a9b03b743a5c582687972f88, type: 2}
+  - {fileID: 11400000, guid: 0fba7b7d434de624ebabf465c02270d5, type: 2}
+  - {fileID: 11400000, guid: 716a4dbc6866e664ca0587579c7fec42, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

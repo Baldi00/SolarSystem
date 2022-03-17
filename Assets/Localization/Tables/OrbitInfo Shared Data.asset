@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: OrbitInfo Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: OrbitInfo
-  m_TableCollectionNameGuidString: 2d5ed8d5a39c5fb4483dfcd25f1d519d
+  m_TableCollectionNameGuidString: 4dfbf1a7d76111f4f94186875d9ec1d1
   m_Entries:
-  - m_Id: 4859752448
+  - m_Id: 8970170368
     m_Key: OrbitInfo
     m_Metadata:
       m_Items: []
@@ -29,4 +29,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647339435314
+        m_CustomEpoch: 1647505609783

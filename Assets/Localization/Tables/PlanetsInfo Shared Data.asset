@@ -13,41 +13,41 @@ MonoBehaviour:
   m_Name: PlanetsInfo Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: PlanetsInfo
-  m_TableCollectionNameGuidString: 44f953f5d37f0ad44980edb3a3f4be06
+  m_TableCollectionNameGuidString: 838613aecf94ed8478d58314150499c0
   m_Entries:
-  - m_Id: 100267585536
+  - m_Id: 3580489728
     m_Key: Mercury
     m_Metadata:
       m_Items: []
-  - m_Id: 212238725120
+  - m_Id: 9385406464
     m_Key: Venus
     m_Metadata:
       m_Items: []
-  - m_Id: 230693662720
+  - m_Id: 12908621824
     m_Key: Earth
     m_Metadata:
       m_Items: []
-  - m_Id: 246128701440
+  - m_Id: 15995629568
     m_Key: Mars
     m_Metadata:
       m_Items: []
-  - m_Id: 260590661632
+  - m_Id: 19585953792
     m_Key: Jupiter
     m_Metadata:
       m_Items: []
-  - m_Id: 281897725952
+  - m_Id: 22740070400
     m_Key: Saturn
     m_Metadata:
       m_Items: []
-  - m_Id: 320854421504
+  - m_Id: 24384237568
     m_Key: Uranus
     m_Metadata:
       m_Items: []
-  - m_Id: 337598083072
+  - m_Id: 25827078144
     m_Key: Neptune
     m_Metadata:
       m_Items: []
-  - m_Id: 356963184640
+  - m_Id: 7397668679680
     m_Key: Pluto
     m_Metadata:
       m_Items: []
@@ -61,4 +61,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647336960988
+        m_CustomEpoch: 1647506060028

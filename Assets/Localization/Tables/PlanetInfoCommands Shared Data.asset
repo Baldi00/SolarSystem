@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PlanetInfoCommands Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: PlanetInfoCommands
-  m_TableCollectionNameGuidString: d381e3c2a80a801408b3cccd90770f21
+  m_TableCollectionNameGuidString: 2689cc6f056252943a40f47fcab011cd
   m_Entries:
-  - m_Id: 183528714240
+  - m_Id: 7007236096
     m_Key: Commands
     m_Metadata:
       m_Items: []
@@ -29,4 +29,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647450616969
+        m_CustomEpoch: 1647505960003

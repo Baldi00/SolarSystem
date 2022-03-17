@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: TitleScreen Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: TitleScreen
-  m_TableCollectionNameGuidString: 8dee73bb318b8994398c9cb68640e32c
+  m_TableCollectionNameGuidString: 3911985912c18a045b387195c915d449
   m_Entries:
-  - m_Id: 24606535680
+  - m_Id: 4159303680
     m_Key: CompareSizes
     m_Metadata:
       m_Items: []
-  - m_Id: 137550753792
+  - m_Id: 6973681664
     m_Key: Orbits
     m_Metadata:
       m_Items: []
-  - m_Id: 250457223168
+  - m_Id: 9662230528
     m_Key: Infos
     m_Metadata:
       m_Items: []
-  - m_Id: 309110370304
+  - m_Id: 11872628736
     m_Key: Quit
     m_Metadata:
       m_Items: []
-  - m_Id: 504330055680
+  - m_Id: 14225633280
     m_Key: Solar System
     m_Metadata:
       m_Items: []
@@ -45,4 +45,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647336201485
+        m_CustomEpoch: 1647506139586

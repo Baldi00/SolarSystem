@@ -15,21 +15,21 @@ MonoBehaviour:
   m_GroupName: Localization-Locales
   m_Data:
     m_SerializedData: []
-  m_GUID: d979396a682904a40966c2299aa9731b
+  m_GUID: f34bb8a24dd8d9d4087f27b98364fd6b
   m_SerializeEntries:
-  - m_GUID: 827287c374af0df48a214daa67f703bc
+  - m_GUID: 422edb3f9e0dd1b4da33157714a4f638
     m_Address: English (en)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 8ac543c9f4c7f0147b1ee708305b761b
+  - m_GUID: 4dc1e58e30aa40a44a566dea6a19dcc4
     m_Address: Italian (it)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 7072068eb9b322d4f93d1ce2bba2aed3, type: 2}
+  m_Settings: {fileID: 11400000, guid: 68c890a55333a444c84d4c10881083a1, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 2836f771d1c689947a17b24dec29d14a, type: 2}
-    - {fileID: 11400000, guid: d263af7f7af71e346a820e6b486e9d10, type: 2}
+    - {fileID: 11400000, guid: 69149e77e511a814b86f6e5fc6d85d60, type: 2}
+    - {fileID: 11400000, guid: f6165fdf218fb124a8da17d0f93f1d9f, type: 2}

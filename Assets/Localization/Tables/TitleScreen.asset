@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
   m_Name: TitleScreen
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 8dee73bb318b8994398c9cb68640e32c, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 3911985912c18a045b387195c915d449, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: 85d6fdd661ed1e040b8f8e5418b58277, type: 2}
-  - {fileID: 11400000, guid: ddad22cd8a577b846b42126f79f547f7, type: 2}
+  - {fileID: 11400000, guid: 8c65234c6de28b741bc91a36ca08ee7d, type: 2}
+  - {fileID: 11400000, guid: 3dddb85e071dba947b6045930fc9865b, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

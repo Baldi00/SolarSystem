@@ -13,85 +13,85 @@ MonoBehaviour:
   m_Name: InfosMenuMoons Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: InfosMenuMoons
-  m_TableCollectionNameGuidString: c12bf831c1d936345a7a5a51ecf025e2
+  m_TableCollectionNameGuidString: 4ef49927f502b7a4aa7eafa5017d3b1e
   m_Entries:
-  - m_Id: 507136045056
+  - m_Id: 5493092352
     m_Key: PhobosTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 522063572992
+  - m_Id: 8211001344
     m_Key: DeimosTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 534579376128
+  - m_Id: 11130236928
     m_Key: IoTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 552933650432
+  - m_Id: 14083026944
     m_Key: EuropaTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 573368299520
+  - m_Id: 17102925824
     m_Key: GanymedeTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 612194971648
+  - m_Id: 21062348800
     m_Key: CallistoTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 629773299712
+  - m_Id: 21699883008
     m_Key: MimasTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 644503695360
+  - m_Id: 22270308352
     m_Key: EnceladusTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 667287154688
+  - m_Id: 22874288128
     m_Key: TethysTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 698694103040
+  - m_Id: 23545376768
     m_Key: DioneTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 734798671872
+  - m_Id: 24149356544
     m_Key: RheaTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 750573449216
+  - m_Id: 24820445184
     m_Key: TitanTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 765668749312
+  - m_Id: 25424424960
     m_Key: IapetusTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 787680456704
+  - m_Id: 26061959168
     m_Key: ArielTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 805464305664
+  - m_Id: 26699493376
     m_Key: UmbrielTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 820932898816
+  - m_Id: 27337027584
     m_Key: TitaniaTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 898141646848
+  - m_Id: 27974561792
     m_Key: OberonTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 936595025920
+  - m_Id: 28712759296
     m_Key: MirandaTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 952868925440
+  - m_Id: 30826688512
     m_Key: TritonTitle
     m_Metadata:
       m_Items: []
-  - m_Id: 2335546404864
+  - m_Id: 31699103744
     m_Key: MoonTitle
     m_Metadata:
       m_Items: []
@@ -105,4 +105,4 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1647343622351
+        m_CustomEpoch: 1647505887020

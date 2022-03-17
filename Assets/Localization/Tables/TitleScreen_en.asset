@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
-  m_SharedData: {fileID: 11400000, guid: 8dee73bb318b8994398c9cb68640e32c, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 3911985912c18a045b387195c915d449, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 24606535680
+  - m_Id: 4159303680
     m_Localized: Sizes
     m_Metadata:
       m_Items: []
-  - m_Id: 137550753792
+  - m_Id: 6973681664
     m_Localized: Orbits
     m_Metadata:
       m_Items: []
-  - m_Id: 250457223168
+  - m_Id: 9662230528
     m_Localized: Infos
     m_Metadata:
       m_Items: []
-  - m_Id: 309110370304
+  - m_Id: 11872628736
     m_Localized: Quit
     m_Metadata:
       m_Items: []
-  - m_Id: 504330055680
+  - m_Id: 14225633280
     m_Localized: 'SOLAR
 
       SYSTEM'

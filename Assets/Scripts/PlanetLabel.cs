@@ -28,11 +28,5 @@ public class PlanetLabel : MonoBehaviour
 
         float scale = Vector3.Distance(planetPosition, cameraTransform.position)/650;
         transform.localScale = new Vector3(scale,scale,scale);
-
-        if(Vector3.Distance(planetPosition, cameraTransform.position)<700 && Vector3.Distance(planetPosition, cameraTransform.position)>200){
-        	textRenderer.enabled = true;
-        }else{
-        	textRenderer.enabled = false;
-        }
     }
 }
