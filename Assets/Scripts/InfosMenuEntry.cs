@@ -27,7 +27,10 @@ public class InfosMenuEntry : MonoBehaviour
                 	infosMenuManager.ToggleMoons();
                     break;
                 case "GalaxyEntry":
-                	infosMenuManager.ToggleWhereAreWe();
+                    infosMenuManager.ToggleWhereAreWe();
+                    break;
+                case "MissionsEntry":
+                    infosMenuManager.ToggleMissions();
                     break;
                 case "MercuryEntry":
                 	gameManager.GoToMercury();

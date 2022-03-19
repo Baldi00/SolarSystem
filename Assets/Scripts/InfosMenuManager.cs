@@ -8,8 +8,9 @@ public class InfosMenuManager : MonoBehaviour
 	private GameObject mercuryEntry, venusEntry, earthEntry, marsEntry, jupiterEntry, saturnEntry, uranusEntry, neptuneEntry, plutoEntry;
 	private GameObject m1E, m2E, m3E, m4E, m5E, m6E, m7E, m8E, m9E, m10E, m11E, m12E, m13E, m14E, m15E, m16E, m17E, m18E, m19E, m20E;
 	private GameObject waw1, waw2, waw3, waw4, waw5, waw6, waw7, waw8;
+    private GameObject mis1E, mis2E, mis3E, mis4E, mis5E, mis6E, mis7E, mis8E, mis9E, mis10E, mis11E, mis12E, mis13E, mis14E, mis15E, mis16E, mis17E, mis18E, mis19E, mis20E, mis21E, mis22E, mis23E, mis24E, mis25E, mis26E, mis27E, mis28E, mis29E, mis30E, mis31E, mis32E;
 	private GameObject sp2, sp3, sp4;
-	private bool planetsOn, moonsOn, whereAreWeOn;
+	private bool planetsOn, moonsOn, whereAreWeOn, missionsOn;
 	private ScrollRect scrollRect;
 
     // Start is called before the first frame update
@@ -52,6 +53,38 @@ public class InfosMenuManager : MonoBehaviour
         waw6 = GameObject.Find("WhereAreWe (6)");
         waw7 = GameObject.Find("WhereAreWe (7)");
         waw8 = GameObject.Find("WhereAreWe (8)");
+        mis1E = GameObject.Find("ApolloEntry");
+        mis2E = GameObject.Find("ArtemisEntry");
+        mis3E = GameObject.Find("CassiniEntry");
+        mis4E = GameObject.Find("ChandraEntry");
+        mis5E = GameObject.Find("CuriosityEntry");
+        mis6E = GameObject.Find("DartEntry");
+        mis7E = GameObject.Find("DawnEntry");
+        mis8E = GameObject.Find("DeepSpaceEntry");
+        mis9E = GameObject.Find("ExoMarsEntry");
+        mis10E = GameObject.Find("GalileoEntry");
+        mis11E = GameObject.Find("HubbleEntry");
+        mis12E = GameObject.Find("IngenuityEntry");
+        mis13E = GameObject.Find("ISSEntry");
+        mis14E = GameObject.Find("JunoEntry");
+        mis15E = GameObject.Find("KeplerEntry");
+        mis16E = GameObject.Find("LunarOrbiterEntry");
+        mis17E = GameObject.Find("MagellanEntry");
+        mis18E = GameObject.Find("MarinerEntry");
+        mis19E = GameObject.Find("MarsExpressEntry");
+        mis20E = GameObject.Find("MarsOdysseyEntry");
+        mis21E = GameObject.Find("MarsPathfinderEntry");
+        mis22E = GameObject.Find("NewHorizonsEntry");
+        mis23E = GameObject.Find("OpportunityEntry");
+        mis24E = GameObject.Find("PerseveranceEntry");
+        mis25E = GameObject.Find("PioneerEntry");
+        mis26E = GameObject.Find("ShuttleEntry");
+        mis27E = GameObject.Find("SpiritEntry");
+        mis28E = GameObject.Find("SpitzerEntry");
+        mis29E = GameObject.Find("SputnikEntry");
+        mis30E = GameObject.Find("VikingEntry");
+        mis31E = GameObject.Find("VoyagerEntry");
+        mis32E = GameObject.Find("WebbEntry");
         sp2 = GameObject.Find("Spacing2");
         sp3 = GameObject.Find("Spacing3");
         sp4 = GameObject.Find("Spacing4");
@@ -99,6 +132,38 @@ public class InfosMenuManager : MonoBehaviour
         if(waw6 != null) waw6.SetActive(false);
         if(waw7 != null) waw7.SetActive(false);
         if(waw8 != null) waw8.SetActive(false);
+        if(mis1E != null) mis1E.SetActive(false);
+        if(mis2E != null) mis2E.SetActive(false);
+        if(mis3E != null) mis3E.SetActive(false);
+        if(mis4E != null) mis4E.SetActive(false);
+        if(mis5E != null) mis5E.SetActive(false);
+        if(mis6E != null) mis6E.SetActive(false);
+        if(mis7E != null) mis7E.SetActive(false);
+        if(mis8E != null) mis8E.SetActive(false);
+        if(mis9E != null) mis9E.SetActive(false);
+        if(mis10E != null) mis10E.SetActive(false);
+        if(mis11E != null) mis11E.SetActive(false);
+        if(mis12E != null) mis12E.SetActive(false);
+        if(mis13E != null) mis13E.SetActive(false);
+        if(mis14E != null) mis14E.SetActive(false);
+        if(mis15E != null) mis15E.SetActive(false);
+        if(mis16E != null) mis16E.SetActive(false);
+        if(mis17E != null) mis17E.SetActive(false);
+        if(mis18E != null) mis18E.SetActive(false);
+        if(mis19E != null) mis19E.SetActive(false);
+        if(mis20E != null) mis20E.SetActive(false);
+        if(mis21E != null) mis21E.SetActive(false);
+        if(mis22E != null) mis22E.SetActive(false);
+        if(mis23E != null) mis23E.SetActive(false);
+        if(mis24E != null) mis24E.SetActive(false);
+        if(mis25E != null) mis25E.SetActive(false);
+        if(mis26E != null) mis26E.SetActive(false);
+        if(mis27E != null) mis27E.SetActive(false);
+        if(mis28E != null) mis28E.SetActive(false);
+        if(mis29E != null) mis29E.SetActive(false);
+        if(mis30E != null) mis30E.SetActive(false);
+        if(mis31E != null) mis31E.SetActive(false);
+        if(mis32E != null) mis32E.SetActive(false);
         if(sp2 != null) sp2.SetActive(false);
         if(sp3 != null) sp3.SetActive(false);
         if(sp4 != null) sp4.SetActive(false);
@@ -168,24 +233,70 @@ public class InfosMenuManager : MonoBehaviour
 
     public void ToggleWhereAreWe()
     {
-    	if(whereAreWeOn)
-    	{
-    		DisableAllSubmenus();
-    	}
-    	else
-    	{
-    		DisableAllSubmenus();
-	        waw1.SetActive(true);
-	        waw2.SetActive(true);
-	        waw3.SetActive(true);
-	        waw4.SetActive(true);
-	        waw5.SetActive(true);
-	        waw6.SetActive(true);
-	        waw7.SetActive(true);
-	        waw8.SetActive(true);
-	        sp4.SetActive(true);
-	        whereAreWeOn = true;
-    	}
+        if(whereAreWeOn)
+        {
+            DisableAllSubmenus();
+        }
+        else
+        {
+            DisableAllSubmenus();
+            waw1.SetActive(true);
+            waw2.SetActive(true);
+            waw3.SetActive(true);
+            waw4.SetActive(true);
+            waw5.SetActive(true);
+            waw6.SetActive(true);
+            waw7.SetActive(true);
+            waw8.SetActive(true);
+            sp4.SetActive(true);
+            whereAreWeOn = true;
+        }
+        scrollRect.verticalNormalizedPosition = 1f;
+    }
+
+    public void ToggleMissions()
+    {
+        if(missionsOn)
+        {
+            DisableAllSubmenus();
+        }
+        else
+        {
+            DisableAllSubmenus();
+            mis1E.SetActive(true);
+            mis2E.SetActive(true);
+            mis3E.SetActive(true);
+            mis4E.SetActive(true);
+            mis5E.SetActive(true);
+            mis6E.SetActive(true);
+            mis7E.SetActive(true);
+            mis8E.SetActive(true);
+            mis9E.SetActive(true);
+            mis10E.SetActive(true);
+            mis11E.SetActive(true);
+            mis12E.SetActive(true);
+            mis13E.SetActive(true);
+            mis14E.SetActive(true);
+            mis15E.SetActive(true);
+            mis16E.SetActive(true);
+            mis17E.SetActive(true);
+            mis18E.SetActive(true);
+            mis19E.SetActive(true);
+            mis20E.SetActive(true);
+            mis21E.SetActive(true);
+            mis22E.SetActive(true);
+            mis23E.SetActive(true);
+            mis24E.SetActive(true);
+            mis25E.SetActive(true);
+            mis26E.SetActive(true);
+            mis27E.SetActive(true);
+            mis28E.SetActive(true);
+            mis29E.SetActive(true);
+            mis30E.SetActive(true);
+            mis31E.SetActive(true);
+            mis32E.SetActive(true);
+            missionsOn = true;
+        }
         scrollRect.verticalNormalizedPosition = 1f;
     }
 
