@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Missions Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Missions
+  m_TableCollectionNameGuidString: 003797dc7020ced409def2d0bc90b281
+  m_Entries:
+  - m_Id: 12245921792
+    m_Key: ApolloTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39253045248
+    m_Key: ArtemisTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135495544832
+    m_Key: CassiniTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147638054912
+    m_Key: ChandraTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183608406016
+    m_Key: CuriosityTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186309537792
+    m_Key: DartTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203602653184
+    m_Key: DawnTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205485895680
+    m_Key: DeepSpaceTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 207465607168
+    m_Key: ExoMarsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209478873088
+    m_Key: GalileoTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211492139008
+    m_Key: HubbleTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213404741632
+    m_Key: IngenuityTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215149572096
+    m_Key: IssTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217095729152
+    m_Key: JunoTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218974777344
+    m_Key: KeplerTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220853825536
+    m_Key: LunarOrbiterTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187999842304
+    m_Key: MagellanTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222762233856
+    m_Key: MarinerTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224779694080
+    m_Key: MarsExpressTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226759405568
+    m_Key: MarsOdysseyTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228810420224
+    m_Key: MarsPathfinderTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230685274112
+    m_Key: NewHorizonsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232627236864
+    m_Key: OpportunityTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235584221184
+    m_Key: PerseveranceTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237027061760
+    m_Key: PioneerTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189820170240
+    m_Key: ShuttleTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191594360832
+    m_Key: SpiritTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193402105856
+    m_Key: SpitzerTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195251793920
+    m_Key: SputinkTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197097287680
+    m_Key: VikingTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199676784640
+    m_Key: VoyagerTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201857822720
+    m_Key: WebbTitle
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1647696476740

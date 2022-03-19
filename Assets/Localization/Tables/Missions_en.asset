@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Missions_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 003797dc7020ced409def2d0bc90b281, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12245921792
+    m_Localized: Apollo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39253045248
+    m_Localized: Artemis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135495544832
+    m_Localized: Cassini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147638054912
+    m_Localized: Chandra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183608406016
+    m_Localized: Curiosity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186309537792
+    m_Localized: Double Asteroids Redireciton Test (DART)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203602653184
+    m_Localized: Dawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205485895680
+    m_Localized: Deep Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 207465607168
+    m_Localized: ExoMars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209478873088
+    m_Localized: Galileo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211492139008
+    m_Localized: Hubble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213404741632
+    m_Localized: Ingenuity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215149572096
+    m_Localized: International Space Station (ISS)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217095729152
+    m_Localized: Juno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218974777344
+    m_Localized: Kepler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220853825536
+    m_Localized: Lunar Orbiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187999842304
+    m_Localized: Magellan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222762233856
+    m_Localized: Mariner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224779694080
+    m_Localized: MarsExpress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226759405568
+    m_Localized: Mars Odyssey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228810420224
+    m_Localized: Mars Pathfinder (Sojourner)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230685274112
+    m_Localized: New Horizons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232627236864
+    m_Localized: Opportunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235584221184
+    m_Localized: Perseverance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237027061760
+    m_Localized: Pioneer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189820170240
+    m_Localized: Shuttle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191594360832
+    m_Localized: Spirit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193402105856
+    m_Localized: Spitzer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195251793920
+    m_Localized: Sputink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197097287680
+    m_Localized: Viking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199676784640
+    m_Localized: Voyager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201857822720
+    m_Localized: James Webb
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class InfosMenuManager : MonoBehaviour
 {
-	private GameObject mercuryEntry, venusEntry, earthEntry, marsEntry, jupiterEntry, saturnEntry, uranusEntry, neptuneEntry, plutoEntry;
+	private GameObject mercuryEntry, venusEntry, earthEntry, marsEntry, jupiterEntry, saturnEntry, uranusEntry, neptuneEntry, dwarfPlanetEntry, ceresEntry, plutoEntry, haumeaEntry, makemakeEntry, erisEntry;
 	private GameObject m1E, m2E, m3E, m4E, m5E, m6E, m7E, m8E, m9E, m10E, m11E, m12E, m13E, m14E, m15E, m16E, m17E, m18E, m19E, m20E;
 	private GameObject waw1, waw2, waw3, waw4, waw5, waw6, waw7, waw8;
     private GameObject mis1E, mis2E, mis3E, mis4E, mis5E, mis6E, mis7E, mis8E, mis9E, mis10E, mis11E, mis12E, mis13E, mis14E, mis15E, mis16E, mis17E, mis18E, mis19E, mis20E, mis21E, mis22E, mis23E, mis24E, mis25E, mis26E, mis27E, mis28E, mis29E, mis30E, mis31E, mis32E;
-	private GameObject sp2, sp3, sp4;
+	private GameObject sp2, sp3, sp4, sp5;
 	private bool planetsOn, moonsOn, whereAreWeOn, missionsOn;
 	private ScrollRect scrollRect;
 
@@ -24,7 +24,12 @@ public class InfosMenuManager : MonoBehaviour
         saturnEntry = GameObject.Find("SaturnEntry");
         uranusEntry = GameObject.Find("UranusEntry");
         neptuneEntry = GameObject.Find("NeptuneEntry");
+        dwarfPlanetEntry = GameObject.Find("DwarfPlanetEntry");
+        ceresEntry = GameObject.Find("CeresEntry");
         plutoEntry = GameObject.Find("PlutoEntry");
+        haumeaEntry = GameObject.Find("HaumeaEntry");
+        makemakeEntry = GameObject.Find("MakemakeEntry");
+        erisEntry = GameObject.Find("ErisEntry");
         m1E = GameObject.Find("MoonEntry");
         m2E = GameObject.Find("PhobosEntry");
         m3E = GameObject.Find("DeimosEntry");
@@ -88,6 +93,7 @@ public class InfosMenuManager : MonoBehaviour
         sp2 = GameObject.Find("Spacing2");
         sp3 = GameObject.Find("Spacing3");
         sp4 = GameObject.Find("Spacing4");
+        sp5 = GameObject.Find("Spacing5");
         scrollRect = GetComponent<ScrollRect>();
         DisableAllSubmenus();
         scrollRect.verticalNormalizedPosition = 1f;
@@ -103,7 +109,12 @@ public class InfosMenuManager : MonoBehaviour
         if(saturnEntry != null) saturnEntry.SetActive(false);
         if(uranusEntry != null) uranusEntry.SetActive(false);
         if(neptuneEntry != null) neptuneEntry.SetActive(false);
+        if(dwarfPlanetEntry != null) dwarfPlanetEntry.SetActive(false);
+        if(ceresEntry != null) ceresEntry.SetActive(false);
         if(plutoEntry != null) plutoEntry.SetActive(false);
+        if(haumeaEntry != null) haumeaEntry.SetActive(false);
+        if(makemakeEntry != null) makemakeEntry.SetActive(false);
+        if(erisEntry != null) erisEntry.SetActive(false);
         if(m1E != null) m1E.SetActive(false);
         if(m2E != null) m2E.SetActive(false);
         if(m3E != null) m3E.SetActive(false);
@@ -167,6 +178,7 @@ public class InfosMenuManager : MonoBehaviour
         if(sp2 != null) sp2.SetActive(false);
         if(sp3 != null) sp3.SetActive(false);
         if(sp4 != null) sp4.SetActive(false);
+        if(sp5 != null) sp5.SetActive(false);
         planetsOn = false;
         moonsOn = false;
         whereAreWeOn = false;
@@ -189,8 +201,14 @@ public class InfosMenuManager : MonoBehaviour
 	        saturnEntry.SetActive(true);
 	        uranusEntry.SetActive(true);
 	        neptuneEntry.SetActive(true);
-	        plutoEntry.SetActive(true);
-	        sp2.SetActive(true);
+            dwarfPlanetEntry.SetActive(true);
+            ceresEntry.SetActive(true);
+            plutoEntry.SetActive(true);
+            haumeaEntry.SetActive(true);
+            makemakeEntry.SetActive(true);
+            erisEntry.SetActive(true);
+            sp2.SetActive(true);
+            sp5.SetActive(true);
 	        planetsOn = true;
     	}
         scrollRect.verticalNormalizedPosition = 1f;

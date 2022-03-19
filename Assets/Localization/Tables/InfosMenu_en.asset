@@ -78,5 +78,25 @@ MonoBehaviour:
     m_Localized: MISSIONS & PHOTOS
     m_Metadata:
       m_Items: []
+  - m_Id: 786563154440192
+    m_Localized: DWARF PLANETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790600864100352
+    m_Localized: CERES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790673828212736
+    m_Localized: HAUMEA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790723488772096
+    m_Localized: MAKEMAKE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790775061934080
+    m_Localized: ERIS
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

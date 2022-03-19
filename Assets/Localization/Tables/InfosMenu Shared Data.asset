@@ -75,6 +75,26 @@ MonoBehaviour:
     m_Key: Missions&Photos
     m_Metadata:
       m_Items: []
+  - m_Id: 786563154440192
+    m_Key: DwarfPlanet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790600864100352
+    m_Key: Ceres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790673828212736
+    m_Key: Haumea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790723488772096
+    m_Key: Makemake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790775061934080
+    m_Key: Eris
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

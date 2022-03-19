@@ -49,6 +49,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/ToggleSizesLabel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 003797dc7020ced409def2d0bc90b281
+    m_Address: Assets/Localization/Tables/Missions Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 68c890a55333a444c84d4c10881083a1, type: 2}
   m_SchemaSet:
