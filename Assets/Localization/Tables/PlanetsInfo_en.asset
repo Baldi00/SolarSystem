@@ -114,5 +114,35 @@ MonoBehaviour:
       Tilt</b>\n122.53\xB0"
     m_Metadata:
       m_Items: []
+  - m_Id: 2356434036191232
+    m_Localized: '<b>Discovered by</b>
+
+      Clyde W. Tombaugh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356428776534016
+    m_Localized: '<b>Discovered by</b>
+
+      Clyde W. Tombaugh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356439539118080
+    m_Localized: '<b>Discovered by</b>
+
+      Clyde W. Tombaugh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356443498541056
+    m_Localized: '<b>Discovered by</b>
+
+      Clyde W. Tombaugh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356448531705856
+    m_Localized: '<b>Discovered by</b>
+
+      Clyde W. Tombaugh'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

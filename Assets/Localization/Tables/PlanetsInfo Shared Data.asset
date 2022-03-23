@@ -51,6 +51,26 @@ MonoBehaviour:
     m_Key: Pluto
     m_Metadata:
       m_Items: []
+  - m_Id: 2356428776534016
+    m_Key: Moon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356434036191232
+    m_Key: Ceres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356439539118080
+    m_Key: Haumea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356443498541056
+    m_Key: Makemake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2356448531705856
+    m_Key: Eris
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private bool movingToOrbits, movingToMainMenu, movingToSizes;
     private bool movingToMercury, movingToVenus, movingToEarth, movingToMars;
     private bool movingToJupiter, movingToSaturn, movingToUranus, movingToNeptune, movingToMoon, movingToPluto;
+    private bool movingToCeres, movingToHaumea, movingToMakemake, movingToEris;
     private GameObject mainMenu, orbits, planetsInOrbit, titleScreenTexts;
     private GameObject sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, moon, ceres, pluto, haumea, makemake, eris;
     private PlanetRotation sunPlanetRotation, mercuryPlanetRotation, venusPlanetRotation, earthPlanetRotation, marsPlanetRotation, jupiterPlanetRotation, saturnPlanetRotation, uranusPlanetRotation, neptunePlanetRotation, plutoPlanetRotation, ceresPlanetRotation, erisPlanetRotation, haumeaPlanetRotation, makemakePlanetRotation, moonPlanetRotation;
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     private CameraRotateAround camRotateAround;
     private Transform mainMenuTransform, sizesTransform, orbitsTransform;
     private Transform mercuryCamPos, venusCamPos, earthCamPos, marsCamPos, jupiterCamPos, saturnCamPos, uranusCamPos, neptuneCamPos, plutoCamPos, moonCamPos;
+    private Transform ceresCamPos, haumeaCamPos, makemakeCamPos, erisCamPos;
     private GameObject UIMenu, UIPlanetInfo;
     private GameObject bigNotInScaleLabels;
     private GameObject toggleSizesLabels, orbitsInfo;
@@ -68,16 +70,20 @@ public class GameManager : MonoBehaviour
 
         bigNotInScaleLabels = GameObject.Find("BigNotInScaleLabels");
 
-        mercuryCamPos = GameObject.Find("MercuryCameraPosition2").GetComponent<Transform>();
-        venusCamPos = GameObject.Find("VenusCameraPosition2").GetComponent<Transform>();
-        earthCamPos = GameObject.Find("EarthCameraPosition2").GetComponent<Transform>();
-        marsCamPos = GameObject.Find("MarsCameraPosition2").GetComponent<Transform>();
-        jupiterCamPos = GameObject.Find("JupiterCameraPosition2").GetComponent<Transform>();
-        saturnCamPos = GameObject.Find("SaturnCameraPosition2").GetComponent<Transform>();
-        uranusCamPos = GameObject.Find("UranusCameraPosition2").GetComponent<Transform>();
-        neptuneCamPos = GameObject.Find("NeptuneCameraPosition2").GetComponent<Transform>();
-        plutoCamPos = GameObject.Find("PlutoCameraPosition2").GetComponent<Transform>();
-        moonCamPos = GameObject.Find("MoonCameraPosition2").GetComponent<Transform>();
+        mercuryCamPos = GameObject.Find("MercuryCameraPosition").GetComponent<Transform>();
+        venusCamPos = GameObject.Find("VenusCameraPosition").GetComponent<Transform>();
+        earthCamPos = GameObject.Find("EarthCameraPosition").GetComponent<Transform>();
+        marsCamPos = GameObject.Find("MarsCameraPosition").GetComponent<Transform>();
+        jupiterCamPos = GameObject.Find("JupiterCameraPosition").GetComponent<Transform>();
+        saturnCamPos = GameObject.Find("SaturnCameraPosition").GetComponent<Transform>();
+        uranusCamPos = GameObject.Find("UranusCameraPosition").GetComponent<Transform>();
+        neptuneCamPos = GameObject.Find("NeptuneCameraPosition").GetComponent<Transform>();
+        plutoCamPos = GameObject.Find("PlutoCameraPosition").GetComponent<Transform>();
+        ceresCamPos = GameObject.Find("CeresCameraPosition").GetComponent<Transform>();
+        haumeaCamPos = GameObject.Find("HaumeaCameraPosition").GetComponent<Transform>();
+        makemakeCamPos = GameObject.Find("MakemakeCameraPosition").GetComponent<Transform>();
+        erisCamPos = GameObject.Find("ErisCameraPosition").GetComponent<Transform>();
+        moonCamPos = GameObject.Find("MoonCameraPosition").GetComponent<Transform>();
 
         mainMenuTransform = GameObject.Find("MainMenuCameraPosition").GetComponent<Transform>();
         sizesTransform = GameObject.Find("SizesCameraPosition").GetComponent<Transform>();
@@ -212,7 +218,7 @@ public class GameManager : MonoBehaviour
             {
                 movingToJupiter = false;
                 camRotateAround.SetTarget(jupiter.transform);
-                camRotateAround.SetZoomSensitivity(20f);
+                camRotateAround.SetZoomSensitivity(30f);
                 sun.transform.localScale = new Vector3(3.62f,3.62f,3.62f);
                 sun.SetActive(true);
                 UIPlanetInfo.SetActive(true);
@@ -224,7 +230,7 @@ public class GameManager : MonoBehaviour
             if (mainCameraTransition.HasFinishedMovement())
             {
                 camRotateAround.SetTarget(saturn.transform);
-                camRotateAround.SetZoomSensitivity(15f);
+                camRotateAround.SetZoomSensitivity(20f);
                 movingToSaturn = false;
                 UIPlanetInfo.SetActive(true);
                 saturnInfo.SetActive(true);
@@ -257,10 +263,54 @@ public class GameManager : MonoBehaviour
             if (mainCameraTransition.HasFinishedMovement())
             {
                 camRotateAround.SetTarget(pluto.transform);
-                camRotateAround.SetZoomSensitivity(3f);
+                camRotateAround.SetZoomSensitivity(1f);
                 movingToPluto = false;
                 UIPlanetInfo.SetActive(true);
                 plutoInfo.SetActive(true);
+            }
+        }
+        else if (movingToCeres)
+        {
+            if (mainCameraTransition.HasFinishedMovement())
+            {
+                camRotateAround.SetTarget(ceres.transform);
+                camRotateAround.SetZoomSensitivity(1f);
+                movingToCeres = false;
+                UIPlanetInfo.SetActive(true);
+                ceresInfo.SetActive(true);
+            }
+        }
+        else if (movingToHaumea)
+        {
+            if (mainCameraTransition.HasFinishedMovement())
+            {
+                camRotateAround.SetTarget(haumea.transform);
+                camRotateAround.SetZoomSensitivity(1f);
+                movingToHaumea = false;
+                UIPlanetInfo.SetActive(true);
+                haumeaInfo.SetActive(true);
+            }
+        }
+        else if (movingToMakemake)
+        {
+            if (mainCameraTransition.HasFinishedMovement())
+            {
+                camRotateAround.SetTarget(makemake.transform);
+                camRotateAround.SetZoomSensitivity(1f);
+                movingToMakemake = false;
+                UIPlanetInfo.SetActive(true);
+                makemakeInfo.SetActive(true);
+            }
+        }
+        else if (movingToEris)
+        {
+            if (mainCameraTransition.HasFinishedMovement())
+            {
+                camRotateAround.SetTarget(eris.transform);
+                camRotateAround.SetZoomSensitivity(1f);
+                movingToEris = false;
+                UIPlanetInfo.SetActive(true);
+                erisInfo.SetActive(true);
             }
         }
         else if (movingToMoon)
@@ -268,7 +318,7 @@ public class GameManager : MonoBehaviour
             if (mainCameraTransition.HasFinishedMovement())
             {
                 camRotateAround.SetTarget(moon.transform);
-                camRotateAround.SetZoomSensitivity(3f);
+                camRotateAround.SetZoomSensitivity(2f);
                 movingToMoon = false;
                 sun.transform.localScale = new Vector3(15.764f,15.764f,15.764f);
                 sun.SetActive(true);
@@ -295,11 +345,11 @@ public class GameManager : MonoBehaviour
             else if(uranus.activeSelf){ mainCameraTransform.position = uranusCamPos.position; mainCameraTransform.eulerAngles = uranusCamPos.eulerAngles; }
             else if(neptune.activeSelf){ mainCameraTransform.position = neptuneCamPos.position; mainCameraTransform.eulerAngles = neptuneCamPos.eulerAngles; }
             else if(moon.activeSelf){ mainCameraTransform.position = moonCamPos.position; mainCameraTransform.eulerAngles = moonCamPos.eulerAngles; }
-            //else if(ceres.activeSelf){ mainCameraTransform.position = ceresCamPos.position; mainCameraTransform.eulerAngles = ceresCamPos.eulerAngles; }
+            else if(ceres.activeSelf){ mainCameraTransform.position = ceresCamPos.position; mainCameraTransform.eulerAngles = ceresCamPos.eulerAngles; }
             else if(pluto.activeSelf){ mainCameraTransform.position = plutoCamPos.position; mainCameraTransform.eulerAngles = plutoCamPos.eulerAngles; }
-            //else if(haumea.activeSelf){ mainCameraTransform.position = haumeaCamPos.position; mainCameraTransform.eulerAngles = haumeaCamPos.eulerAngles; }
-            //else if(makemake.activeSelf){ mainCameraTransform.position = makemakeCamPos.position; mainCameraTransform.eulerAngles = makemakeCamPos.eulerAngles; }
-            //else if(eris.activeSelf){ mainCameraTransform.position = erisCamPos.position; mainCameraTransform.eulerAngles = erisCamPos.eulerAngles; }
+            else if(haumea.activeSelf){ mainCameraTransform.position = haumeaCamPos.position; mainCameraTransform.eulerAngles = haumeaCamPos.eulerAngles; }
+            else if(makemake.activeSelf){ mainCameraTransform.position = makemakeCamPos.position; mainCameraTransform.eulerAngles = makemakeCamPos.eulerAngles; }
+            else if(eris.activeSelf){ mainCameraTransform.position = erisCamPos.position; mainCameraTransform.eulerAngles = erisCamPos.eulerAngles; }
             
             UIPlanetInfo.SetActive(true);
         }
@@ -487,6 +537,66 @@ public class GameManager : MonoBehaviour
         isInPlanetInfo = true;
     }
 
+    public void GoToCeres()
+    {
+        SetAllMovingToFalseAndReset();
+        SetAllPlanetsVisibility(false);
+        mainCameraTransition.stopDistance = 0.1f;
+        mainCameraTransform.position = new Vector3(-10000f, 0f, 0f);
+        mainCameraTransform.eulerAngles = new Vector3(0f, 90f, 0f);
+        ceres.SetActive(true);
+        UIMenu.SetActive(false);
+        movingToCeres = true;
+        freeCam.enabled = false;
+        mainCameraTransition.MoveTo(ceresCamPos);
+        isInPlanetInfo = true;
+    }
+
+    public void GoToHaumea()
+    {
+        SetAllMovingToFalseAndReset();
+        SetAllPlanetsVisibility(false);
+        mainCameraTransition.stopDistance = 0.1f;
+        mainCameraTransform.position = new Vector3(-10000f, 0f, 0f);
+        mainCameraTransform.eulerAngles = new Vector3(0f, 90f, 0f);
+        haumea.SetActive(true);
+        UIMenu.SetActive(false);
+        movingToHaumea = true;
+        freeCam.enabled = false;
+        mainCameraTransition.MoveTo(haumeaCamPos);
+        isInPlanetInfo = true;
+    }
+
+    public void GoToMakemake()
+    {
+        SetAllMovingToFalseAndReset();
+        SetAllPlanetsVisibility(false);
+        mainCameraTransition.stopDistance = 0.1f;
+        mainCameraTransform.position = new Vector3(-10000f, 0f, 0f);
+        mainCameraTransform.eulerAngles = new Vector3(0f, 90f, 0f);
+        makemake.SetActive(true);
+        UIMenu.SetActive(false);
+        movingToMakemake = true;
+        freeCam.enabled = false;
+        mainCameraTransition.MoveTo(makemakeCamPos);
+        isInPlanetInfo = true;
+    }
+
+    public void GoToEris()
+    {
+        SetAllMovingToFalseAndReset();
+        SetAllPlanetsVisibility(false);
+        mainCameraTransition.stopDistance = 0.1f;
+        mainCameraTransform.position = new Vector3(-10000f, 0f, 0f);
+        mainCameraTransform.eulerAngles = new Vector3(0f, 90f, 0f);
+        eris.SetActive(true);
+        UIMenu.SetActive(false);
+        movingToEris = true;
+        freeCam.enabled = false;
+        mainCameraTransition.MoveTo(erisCamPos);
+        isInPlanetInfo = true;
+    }
+
     public void GoToMoon()
     {
         SetAllMovingToFalseAndReset();
@@ -541,6 +651,7 @@ public class GameManager : MonoBehaviour
         movingToMercury = movingToVenus = movingToEarth = movingToMars = false;
         movingToJupiter = movingToSaturn = movingToUranus = movingToNeptune = false;
         movingToMoon = movingToPluto = false;
+        movingToCeres = movingToHaumea = movingToMakemake = movingToEris = false;
 
         UIPlanetInfo.SetActive(false);
         mercuryInfo.SetActive(false);

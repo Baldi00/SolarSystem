@@ -8,13 +8,12 @@ public class CameraRotateAround : MonoBehaviour
 	private Vector3 previousPosition;
 	[SerializeField]
 	private Transform target;
-	private float zoom, zoomSensitivity;
+	public float zoom, zoomSensitivity;
 
 	void Start()
 	{
 		cam = GetComponent<Camera>();
 		zoom = 0f;
-		zoomSensitivity = 3f;
 	}
 
 	void Update()

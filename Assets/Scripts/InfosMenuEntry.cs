@@ -59,6 +59,18 @@ public class InfosMenuEntry : MonoBehaviour
                 case "PlutoEntry":
                     gameManager.GoToPluto();
                     break;
+                case "CeresEntry":
+                    gameManager.GoToCeres();
+                    break;
+                case "HaumeaEntry":
+                    gameManager.GoToHaumea();
+                    break;
+                case "MakemakeEntry":
+                    gameManager.GoToMakemake();
+                    break;
+                case "ErisEntry":
+                    gameManager.GoToEris();
+                    break;
                 case "MoonEntry":
                     gameManager.GoToMoon();
                     break;

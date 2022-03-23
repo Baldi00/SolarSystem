@@ -7,7 +7,7 @@ public class InfosMenuManager : MonoBehaviour
 {
 	private GameObject mercuryEntry, venusEntry, earthEntry, marsEntry, jupiterEntry, saturnEntry, uranusEntry, neptuneEntry, dwarfPlanetEntry, ceresEntry, plutoEntry, haumeaEntry, makemakeEntry, erisEntry;
 	private GameObject m1E, m2E, m3E, m4E, m5E, m6E, m7E, m8E, m9E, m10E, m11E, m12E, m13E, m14E, m15E, m16E, m17E, m18E, m19E, m20E;
-	private GameObject waw1, waw2, waw3, waw4, waw5, waw6, waw7, waw8;
+    private GameObject waw;
     private GameObject mis1E, mis2E, mis3E, mis4E, mis5E, mis6E, mis7E, mis8E, mis9E, mis10E, mis11E, mis12E, mis13E, mis14E, mis15E, mis16E, mis17E, mis18E, mis19E, mis20E, mis21E, mis22E, mis23E, mis24E, mis25E, mis26E, mis27E, mis28E, mis29E, mis30E, mis31E, mis32E;
 	private GameObject sp2, sp3, sp4, sp5;
 	private bool planetsOn, moonsOn, whereAreWeOn, missionsOn;
@@ -50,14 +50,7 @@ public class InfosMenuManager : MonoBehaviour
         m18E = GameObject.Find("OberonEntry");
         m19E = GameObject.Find("MirandaEntry");
         m20E = GameObject.Find("TritonEntry");
-        waw1 = GameObject.Find("WhereAreWe (1)");
-        waw2 = GameObject.Find("WhereAreWe (2)");
-        waw3 = GameObject.Find("WhereAreWe (3)");
-        waw4 = GameObject.Find("WhereAreWe (4)");
-        waw5 = GameObject.Find("WhereAreWe (5)");
-        waw6 = GameObject.Find("WhereAreWe (6)");
-        waw7 = GameObject.Find("WhereAreWe (7)");
-        waw8 = GameObject.Find("WhereAreWe (8)");
+        waw = GameObject.Find("WhereAreWe");
         mis1E = GameObject.Find("ApolloEntry");
         mis2E = GameObject.Find("ArtemisEntry");
         mis3E = GameObject.Find("CassiniEntry");
@@ -95,6 +88,7 @@ public class InfosMenuManager : MonoBehaviour
         sp4 = GameObject.Find("Spacing4");
         sp5 = GameObject.Find("Spacing5");
         scrollRect = GetComponent<ScrollRect>();
+        waw.GetComponent<RectTransform>().sizeDelta = new Vector2 (1000, 2800);
         DisableAllSubmenus();
         scrollRect.verticalNormalizedPosition = 1f;
     }
@@ -135,14 +129,7 @@ public class InfosMenuManager : MonoBehaviour
         if(m18E != null) m18E.SetActive(false);
         if(m19E != null) m19E.SetActive(false);
         if(m20E != null) m20E.SetActive(false);
-        if(waw1 != null) waw1.SetActive(false);
-        if(waw2 != null) waw2.SetActive(false);
-        if(waw3 != null) waw3.SetActive(false);
-        if(waw4 != null) waw4.SetActive(false);
-        if(waw5 != null) waw5.SetActive(false);
-        if(waw6 != null) waw6.SetActive(false);
-        if(waw7 != null) waw7.SetActive(false);
-        if(waw8 != null) waw8.SetActive(false);
+        if(waw != null) waw.SetActive(false);
         if(mis1E != null) mis1E.SetActive(false);
         if(mis2E != null) mis2E.SetActive(false);
         if(mis3E != null) mis3E.SetActive(false);
@@ -258,14 +245,7 @@ public class InfosMenuManager : MonoBehaviour
         else
         {
             DisableAllSubmenus();
-            waw1.SetActive(true);
-            waw2.SetActive(true);
-            waw3.SetActive(true);
-            waw4.SetActive(true);
-            waw5.SetActive(true);
-            waw6.SetActive(true);
-            waw7.SetActive(true);
-            waw8.SetActive(true);
+            waw.SetActive(true);
             sp4.SetActive(true);
             whereAreWeOn = true;
         }
