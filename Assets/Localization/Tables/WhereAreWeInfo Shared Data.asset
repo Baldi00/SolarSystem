@@ -51,6 +51,42 @@ MonoBehaviour:
     m_Key: ObservableUniverseWAWInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 6403834048540672
+    m_Key: LocalSuperClustersWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404635500343296
+    m_Key: SolarSystemWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404706132422656
+    m_Key: LocalInterstellarGroupWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404847430135808
+    m_Key: MilkyWayWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404958558220288
+    m_Key: "LocalGroupWAW\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405048958054400
+    m_Key: VirgoSuperClusterWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405284979929088
+    m_Key: LaniakeaSuperClusterWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405556632416256
+    m_Key: ObservableUniverseWAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405680184029184
+    m_Key: LocalSuperClustersWAW
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -98,5 +98,13 @@ MonoBehaviour:
     m_Localized: Luna (Terra I)
     m_Metadata:
       m_Items: []
+  - m_Id: 8770330200502272
+    m_Localized: Clicca per essere lanciato sulla Luna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8770584236912640
+    m_Localized: Caronte (Plutone I)
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

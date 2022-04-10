@@ -27,7 +27,7 @@ MonoBehaviour:
 
       30 000 km
 
-      0.0002 UA
+      0,0002 UA
 
       0,1
       secondi luce'
@@ -108,6 +108,49 @@ MonoBehaviour:
       881 420 168 840 000 UA
 
       93 000 000 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6403834048540672
+    m_Localized: 'Diametro Cilindro
+
+      18 921 460 945 000 000 000 000 km
+
+      126
+      482 154 170 000 UA
+
+      2 000 000 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404635500343296
+    m_Localized: Sistema Solare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404706132422656
+    m_Localized: Gruppo Interstellare Locale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404847430135808
+    m_Localized: Via Lattea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6404958558220288
+    m_Localized: Gruppo Locale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405048958054400
+    m_Localized: Superammasso della Vergine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405284979929088
+    m_Localized: Superammasso Laniakea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405556632416256
+    m_Localized: Universo Osservabile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6405680184029184
+    m_Localized: Superammassi Locali
     m_Metadata:
       m_Items: []
   references:

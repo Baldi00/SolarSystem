@@ -98,5 +98,13 @@ MonoBehaviour:
     m_Localized: Moon (Earth I)
     m_Metadata:
       m_Items: []
+  - m_Id: 8770330200502272
+    m_Localized: Click to launch to the Moon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8770584236912640
+    m_Localized: Charon (Pluto I)
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
