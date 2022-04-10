@@ -143,141 +143,138 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2356439539118080
-    m_Localized: '<b>Scoperto da</b>
-
-
-
-      <b>Data scoperta</b>
-
-
-
-      <b>Tipo</b>
-
-
-
-      <b>Diametro</b>
-
-
-
-
-
-      <b>Massa</b>
-
-
-
-
-
-      <b>Periodo
-      di Rotazione (giorno)</b>
-
-
-
-      <b>Periodo Orbitale (anno)</b>
-
-
-
-      <b>Distanza
-      media dal Sole</b>
-
-
-
-
-
-      <b>Temperature</b>
-
-'
+    m_Localized: "<b>Scoperto da</b>\nMichael E. Brown\nJos\xE9 Luis Ortiz Moreno\n\n<b>Data
+      scoperta</b>\n28 Dicembre 2004\n\n<b>Tipo</b>\nNano\n\n<b>Diametro</b>\n1 560
+      km\n(0,1222 Terre)\n(0,4489 Lune)\n\n<b>Massa</b>\n4,006x10^21 kg\n(0,00066
+      Terre)\n(0,05456 Lune)\n\n<b>Periodo di Rotazione (giorno)</b>\n3,915 ore\n\n<b>Periodo
+      Orbitale (anno)</b>\n283,12 anni\n\n<b>Distanza media dal Sole</b>\n6 485 768
+      932 km\n43,3546 UA\n6 ore luce"
     m_Metadata:
       m_Items: []
   - m_Id: 2356443498541056
     m_Localized: '<b>Scoperto da</b>
 
+      Michael E. Brown
+
+      Chad Trujillo
+
+      David
+      Rabinowitz
 
 
       <b>Data scoperta</b>
 
+      31 Marzo 2005
 
 
       <b>Tipo</b>
 
+      Nano
 
 
       <b>Diametro</b>
 
+      1
+      430 km
 
+      (0,1121 Terre)
 
+      (0,4115 Lune)
 
 
       <b>Massa</b>
 
+      3,1x10^21
+      kg
+
+      (0,00051 Terre)
+
+      (0,04222 Lune)
 
 
+      <b>Periodo di Rotazione
+      (giorno)</b>
 
-
-      <b>Periodo
-      di Rotazione (giorno)</b>
-
+      7,77 ore
 
 
       <b>Periodo Orbitale (anno)</b>
 
+      306,21
+      ore
 
 
-      <b>Distanza
-      media dal Sole</b>
+      <b>Distanza media dal Sole</b>
 
+      6 850 200 000 km
 
+      45,791
+      UA
 
-
-
-      <b>Temperature</b>
-
-'
+      6,34 ore luce'
     m_Metadata:
       m_Items: []
   - m_Id: 2356448531705856
     m_Localized: '<b>Scoperto da</b>
 
+      Michael Brown
+
+      Chad Trujillo
+
+      David
+      Rabinowitz
 
 
       <b>Data scoperta</b>
 
+      8 Gennaio 2005
 
 
       <b>Tipo</b>
 
+      Nano
 
 
       <b>Diametro</b>
 
+      2
+      326 km
 
+      (0,1823 Terre)
 
+      (0,6693 Lune)
 
 
       <b>Massa</b>
 
+      1,66x10^22
+      kg
+
+      (0,002 Terre)
+
+      (0,226 Lune)
 
 
+      <b>Periodo di Rotazione
+      (giorno)</b>
 
-
-      <b>Periodo
-      di Rotazione (giorno)</b>
-
+      8 ore
 
 
       <b>Periodo Orbitale (anno)</b>
 
+      556,48
+      anni
 
 
-      <b>Distanza
-      media dal Sole</b>
+      <b>Distanza media dal Sole</b>
 
+      10 121 073 571 km
 
+      67,654
+      UA
 
-
-
-      <b>Temperature</b>
-
-'
+      9,377 ore luce'
     m_Metadata:
       m_Items: []
   references:

@@ -141,141 +141,138 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2356439539118080
-    m_Localized: '<b>Discovered by</b>
-
-
-
-      <b>Discovery date</b>
-
-
-
-      <b>Type</b>
-
-
-
-      <b>Diameter</b>
-
-
-
-
-
-      <b>Mass</b>
-
-
-
-
-
-      <b>Rotational
-      Period (day)</b>
-
-
-
-      <b>Orbital Period (year)</b>
-
-
-
-      <b>Mean Sun
-      Distance</b>
-
-
-
-
-
-      <b>Temperature</b>
-
-'
+    m_Localized: "<b>Discovered by</b>\nMichael E. Brown\nJos\xE9 Luis Ortiz Moreno\n\n<b>Discovery
+      date</b>\n28 December 2004\n\n<b>Type</b>\nDwarf\n\n<b>Diameter</b>\n1 560
+      km\n(0.1222 Earths)\n(0.4489 Moons)\n\n<b>Mass</b>\n4.006x10^21 kg\n(0.00066
+      Earths)\n(0.05456 Moons)\n\n<b>Rotational Period (day)</b>\n3.915 hours\n\n<b>Orbital
+      Period (year)</b>\n283.12 years\n\n<b>Mean Sun Distance</b>\n6 485 768 932
+      km\n43.3546 AU\n6 light hours"
     m_Metadata:
       m_Items: []
   - m_Id: 2356443498541056
     m_Localized: '<b>Discovered by</b>
 
+      Michael E. Brown
+
+      Chad Trujillo
+
+      David
+      Rabinowitz
 
 
       <b>Discovery date</b>
 
+      31 March 2005
 
 
       <b>Type</b>
 
+      Dwarf
 
 
       <b>Diameter</b>
 
+      1
+      430 km
 
+      (0.1121 Earths)
 
+      (0.4115 Moons)
 
 
       <b>Mass</b>
 
+      3.1x10^21
+      kg
+
+      (0.00051 Earths)
+
+      (0.04222 Moons)
 
 
+      <b>Rotational Period
+      (day)</b>
 
-
-      <b>Rotational
-      Period (day)</b>
-
+      7.77 hours
 
 
       <b>Orbital Period (year)</b>
 
+      306.21
+      hours
 
 
-      <b>Mean Sun
-      Distance</b>
+      <b>Mean Sun Distance</b>
 
+      6 850 200 000 km
 
+      45.791
+      AU
 
-
-
-      <b>Temperature</b>
-
-'
+      6.34 light hours'
     m_Metadata:
       m_Items: []
   - m_Id: 2356448531705856
     m_Localized: '<b>Discovered by</b>
 
+      Michael Brown
+
+      Chad Trujillo
+
+      David
+      Rabinowitz
 
 
       <b>Discovery date</b>
 
+      8 January 2005
 
 
       <b>Type</b>
 
+      Dwarf
 
 
       <b>Diameter</b>
 
+      2
+      326 km
 
+      (0.1823 Earths)
 
+      (0.6693 Moons)
 
 
       <b>Mass</b>
 
+      1.66x10^22
+      kg
+
+      (0.002 Earths)
+
+      (0.226 Moons)
 
 
+      <b>Rotational Period
+      (day)</b>
 
-
-      <b>Rotational
-      Period (day)</b>
-
+      8 hours
 
 
       <b>Orbital Period (year)</b>
 
+      556.48
+      years
 
 
-      <b>Mean Sun
-      Distance</b>
+      <b>Mean Sun Distance</b>
 
+      10 121 073 571 km
 
+      67.654
+      AU
 
-
-
-      <b>Temperature</b>
-
-'
+      9.377 light hours'
     m_Metadata:
       m_Items: []
   references:

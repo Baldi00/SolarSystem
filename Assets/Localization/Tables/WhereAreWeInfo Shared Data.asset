@@ -23,6 +23,34 @@ MonoBehaviour:
     m_Key: EarthWAWInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 6355077953433600
+    m_Key: SolarSystemWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6356541794889728
+    m_Key: LocalInterstellarGroupWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6357572251496448
+    m_Key: MilkyWayWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6358331995140096
+    m_Key: LocalGroupWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360191950860288
+    m_Key: VirgoSuperClusterWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360242785824768
+    m_Key: LaniakeaSuperClusterWAWInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360324121767936
+    m_Key: ObservableUniverseWAWInfo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -25,7 +25,89 @@ MonoBehaviour:
   - m_Id: 5318317305856
     m_Localized: 'Cylinder Diameter
 
-      10000000000000000000000000000000km'
+      30 000 km
+
+      0.0002 AU
+
+      0.1
+      light seconds'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6355077953433600
+    m_Localized: 'Cylinder Diameter
+
+      14 360 000 000 km
+
+      96 AU
+
+      13.30
+      light hours'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6356541794889728
+    m_Localized: 'Cylinder Diameter
+
+      283 800 000 000 000 km
+
+      1 897 000
+      AU
+
+      30 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6357572251496448
+    m_Localized: 'Cylinder Diameter
+
+      946 073 000 000 000 000 km
+
+      6 324
+      110 000 AU
+
+      100 000 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6358331995140096
+    m_Localized: 'Cylinder Diameter
+
+      94 607 305 000 000 000 000 km
+
+      632
+      410 770 000 AU
+
+      10 000 000 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360191950860288
+    m_Localized: 'Cylinder Diameter
+
+      946 073 047 000 000 000 000 km
+
+      6
+      324 107 710 000 AU
+
+      100 000 000 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360242785824768
+    m_Localized: 'Cylinder Diameter
+
+      4 730 365 236 000 000 000 000 km
+
+      31
+      620 538 540 000 AU
+
+      500 000 000 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360324121767936
+    m_Localized: 'Cylinder Diameter
+
+      879 847 933 950 000 000 000 000 km
+
+      5
+      881 420 168 840 000 AU
+
+      93 000 000 000 light years'
     m_Metadata:
       m_Items: []
   references:

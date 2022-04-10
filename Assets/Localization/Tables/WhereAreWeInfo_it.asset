@@ -25,7 +25,89 @@ MonoBehaviour:
   - m_Id: 5318317305856
     m_Localized: 'Diametro Cilindro
 
-      10000000000000000000000000000000km'
+      30 000 km
+
+      0.0002 UA
+
+      0,1
+      secondi luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6355077953433600
+    m_Localized: 'Diametro Cilindro
+
+      14 360 000 000 km
+
+      96 UA
+
+      13,30
+      ore luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6356541794889728
+    m_Localized: 'Diametro Cilindro
+
+      283 800 000 000 000 km
+
+      1 897 000
+      UA
+
+      30 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6357572251496448
+    m_Localized: 'Diametro Cilindro
+
+      946 073 000 000 000 000 km
+
+      6 324
+      110 000 UA
+
+      100 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6358331995140096
+    m_Localized: 'Diametro Cilindro
+
+      94 607 305 000 000 000 000 km
+
+      632
+      410 770 000 UA
+
+      10 000 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360191950860288
+    m_Localized: 'Diametro Cilindro
+
+      946 073 047 000 000 000 000 km
+
+      6
+      324 107 710 000 UA
+
+      100 000 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360242785824768
+    m_Localized: 'Diametro Cilindro
+
+      4 730 365 236 000 000 000 000 km
+
+      31
+      620 538 540 000 UA
+
+      500 000 000 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6360324121767936
+    m_Localized: 'Diametro Cilindro
+
+      879 847 933 950 000 000 000 000 km
+
+      5
+      881 420 168 840 000 UA
+
+      93 000 000 000 anni luce'
     m_Metadata:
       m_Items: []
   references:
