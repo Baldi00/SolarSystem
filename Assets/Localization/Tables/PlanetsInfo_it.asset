@@ -20,43 +20,45 @@ MonoBehaviour:
   m_TableData:
   - m_Id: 3580489728
     m_Localized: "<b>Scoperto da</b>\nAntichi astronomi Babilonesi\n\n<b>Data scoperta</b>\nSecondo
-      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Diametro</b>\n4 880 km
-      (0,38 Terre)\n\n<b>Massa</b>\n3,3011x10^23 kg (0,055 Terre)\n\n<b>Periodo di
-      Rotazione (giorno)</b>\n58,65 giorni\n\n<b>Periodo Orbitale (anno)</b>\n87,97
-      giorni\n\n<b>Distanza media dal Sole</b>\n5 790 000 km\n0,0387 UA\n19,31 secondi
-      luce\n\n<b>Temperature</b>\n-183/167/452 \xB0C\n\n<b>Gravit\xE0</b>\n3,7 m/s^2
-      (0,378 g)\n100 kg sulla Terra = 37,8 kg su Mercurio\n\n<b>Pressione</b>\npressoch\xE9
+      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Et\xE0</b>\n4 503 000
+      000 anni\n\n<b>Diametro</b>\n4 880 km (0,38 Terre)\n\n<b>Massa</b>\n3,3011x10^23
+      kg (0,055 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n58,65 giorni\n\n<b>Periodo
+      Orbitale (anno)</b>\n87,97 giorni\n\n<b>Distanza media dal Sole</b>\n5 790
+      000 km\n0,0387 UA\n19,31 secondi luce\n\n<b>Temperature</b>\n-183/167/452 \xB0C\n\n<b>Gravit\xE0</b>\n3,7
+      m/s^2 (0,378 g)\n100 kg sulla Terra = 37,8 kg su Mercurio\n\n<b>Pressione</b>\npressoch\xE9
       assente\n\n<b>Numero di Satelliti</b>\nNessuno\n\n<b>Inclinazione Assiale</b>\n0,034\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 9385406464
     m_Localized: "<b>Scoperto da</b>\nAntichi astronomi Babilonesi\n\n<b>Data scoperta</b>\nSecondo
-      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Diametro</b>\n12 103,6
-      km (0,9499 Terre)\n\n<b>Massa</b>\n4,8675x10^24 kg (0,815 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n243,69 giorni\n\n<b>Periodo Orbitale (anno)</b>\n224,7
-      giorni\n\n<b>Distanza media dal Sole</b>\n108 210 000 km\n0,723 UA\n6 minuti
-      luce\n\n<b>Temperature</b>\n380/464\xB0C\n\n<b>Gravit\xE0</b>\n8,87 m/s^2 (0,904
-      g)\n100 kg sulla Terra = 90,4 kg su Venere\n\n<b>Pressione</b>\n91,78 volte
-      quella terrestre\n(Saresti spappolato)\n\n<b>Numero di Satelliti</b>\nNessuno\n\n<b>Inclinazione
+      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Et\xE0</b>\n4 503 000
+      000 anni\n\n<b>Diametro</b>\n12 103,6 km (0,9499 Terre)\n\n<b>Massa</b>\n4,8675x10^24
+      kg (0,815 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n243,69 giorni\n\n<b>Periodo
+      Orbitale (anno)</b>\n224,7 giorni\n\n<b>Distanza media dal Sole</b>\n108 210
+      000 km\n0,723 UA\n6 minuti luce\n\n<b>Temperature</b>\n380/464\xB0C\n\n<b>Gravit\xE0</b>\n8,87
+      m/s^2 (0,904 g)\n100 kg sulla Terra = 90,4 kg su Venere\n\n<b>Pressione</b>\n91,78
+      volte quella terrestre\n(Saresti spappolato)\n\n<b>Numero di Satelliti</b>\nNessuno\n\n<b>Inclinazione
       Assiale</b>\n2,64\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 12908621824
-    m_Localized: "<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Diametro</b>\n12 756,274
-      km\n\n<b>Massa</b>\n5,9726x10^24 kg\n\n<b>Periodo di Rotazione (giorno)</b>\n24
-      ore\n\n<b>Periodo Orbitale (anno)</b>\n365 giorni\n\n<b>Distanza media dal
-      Sole</b>\n149 597 887 km\n1 UA\n8,3 minuti luce\n\n<b>Temperature</b>\n-89/15/57\xB0C\n\n<b>Gravit\xE0</b>\n9,80665
-      m/s^2 (1 g)\n\n<b>Pressione</b>\n101,325 kPa\n\n<b>Numero di Satelliti</b>\n1
-      (Luna)\n\n<b>Inclinazione Assiale</b>\n23,44\xB0"
+    m_Localized: "<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Et\xE0</b>\n4 543 000 000
+      anni\n\n<b>Prime Tracce di Vita</b>\n3 900 000 000 anni fa\n\n<b>Prime Tracce
+      di Homo Sapiens</b>\n250 000 anni fa\n\n<b>Diametro</b>\n12 756,274 km\n\n<b>Massa</b>\n5,9726x10^24
+      kg\n\n<b>Periodo di Rotazione (giorno)</b>\n24 ore\n\n<b>Periodo Orbitale (anno)</b>\n365
+      giorni\n\n<b>Distanza media dal Sole</b>\n149 597 887 km\n1 UA\n8,3 minuti
+      luce\n\n<b>Temperature</b>\n-89/15/57\xB0C\n\n<b>Gravit\xE0</b>\n9,80665 m/s^2
+      (1 g)\n\n<b>Pressione</b>\n101,325 kPa\n\n<b>Numero di Satelliti</b>\n1 (Luna)\n\n<b>Inclinazione
+      Assiale</b>\n23,44\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 15995629568
     m_Localized: "<b>Scoperto da</b>\nAntichi astronomi Babilonesi\n\n<b>Data scoperta</b>\nSecondo
-      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Diametro</b>\n6 804,9
-      km (0,53 Terre)\n\n<b>Massa</b>\n6,4185x10^23 kg (0,107 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n24 ore 37 minuti 23 secondi\n\n<b>Periodo Orbitale
-      (anno)</b>\n1,88 anni\n\n<b>Distanza media dal Sole</b>\n227 936 637 km\n1,52
-      UA\n12,64 minuti luce\n\n<b>Temperature</b>\n-140/-63/20\xB0C\n\n<b>Gravit\xE0</b>\n3,72076
+      millenio AC\n\n<b>Tipo</b>\nTerrestre/Roccioso\n\n<b>Et\xE0</b>\n4 603 000
+      000 anni\n\n<b>Diametro</b>\n6 804,9 km (0,53 Terre)\n\n<b>Massa</b>\n6,4185x10^23
+      kg (0,107 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n24 ore 37 minuti
+      23 secondi\n\n<b>Periodo Orbitale (anno)</b>\n1,88 anni\n\n<b>Distanza media
+      dal Sole</b>\n227 936 637 km\n1,52 UA\n12,64 minuti luce\n\n<b>Temperature</b>\n-140/-63/20\xB0C\n\n<b>Gravit\xE0</b>\n3,72076
       m/s^2 (0,3794 g)\n100 kg sulla Terra = 37,9 kg su Marte\n\n<b>Pressione</b>\npressoch\xE9
       assente\n\n<b>Numero di Satelliti</b>\n2 (Phobos, Deimos)\n\n<b>Inclinazione
       Assiale</b>\n25,19\xB0"
@@ -64,11 +66,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 19585953792
     m_Localized: "<b>Scoperto da</b>\nAntichi astronomi Babilonesi\n\n<b>Data scoperta</b>\nSecondo
-      millenio AC\n\n<b>Tipo</b>\nGigante gassoso\n\n<b>Diametro</b>\n142 984 km
-      (11,21 Terre)\n\n<b>Massa</b>\n1,89819\xD710^27 kg (317,83 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n9 ore 55 minuti 29,685 secondi\n\n<b>Periodo Orbitale
-      (anno)</b>\n11,864 anni\n\n<b>Distanza media dal Sole</b>\n778 412 027 km\n5,203
-      UA\n43,275 minuti luce\n\n<b>Temperature</b>\n-163/-121\xB0C\n\n<b>Gravit\xE0</b>\n23,12
+      millenio AC\n\n<b>Tipo</b>\nGigante gassoso\n\n<b>Et\xE0</b>\n4 603 000 000
+      anni\n\n<b>Diametro</b>\n142 984 km (11,21 Terre)\n\n<b>Massa</b>\n1,89819\xD710^27
+      kg (317,83 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n9 ore 55 minuti
+      29,685 secondi\n\n<b>Periodo Orbitale (anno)</b>\n11,864 anni\n\n<b>Distanza
+      media dal Sole</b>\n778 412 027 km\n5,203 UA\n43,275 minuti luce\n\n<b>Temperature</b>\n-163/-121\xB0C\n\n<b>Gravit\xE0</b>\n23,12
       m/s^2 (2,528 g)\n100 kg sulla Terra = 252,8 kg su Giove\n\n<b>Pressione</b>\n0,2/2
       volte quella terrestre\n\n<b>Numero di Satelliti</b>\n79 (Io, Europa, Ganimede,
       Callisto, ...)\n\n<b>Numero di Anelli</b>\n4\n\n<b>Inclinazione Assiale</b>\n3,13\xB0"
@@ -76,11 +78,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 22740070400
     m_Localized: "<b>Scoperto da</b>\nAntichi astronomi Babilonesi\n\n<b>Data scoperta</b>\nSecondo
-      millenio AC\n\n<b>Tipo</b>\nGigante gassoso\n\n<b>Diametro</b>\n120 536 km
-      (9,45 Terre)\n\n<b>Massa</b>\n5,6834\xD710^26 kg (95,159 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n10 ore 33 minuti 38 secondi\n\n<b>Periodo Orbitale
-      (anno)</b>\n29,45 anni\n\n<b>Distanza media dal Sole</b>\n1 433 530 000 km\n9,582
-      UA\n79,696 minuti luce\n\n<b>Temperature</b>\n-191/-130\xB0C\n\n<b>Gravit\xE0</b>\n10,44
+      millenio AC\n\n<b>Tipo</b>\nGigante gassoso\n\n<b>Et\xE0</b>\n4 503 000 000
+      anni\n\n<b>Diametro</b>\n120 536 km (9,45 Terre)\n\n<b>Massa</b>\n5,6834\xD710^26
+      kg (95,159 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n10 ore 33 minuti
+      38 secondi\n\n<b>Periodo Orbitale (anno)</b>\n29,45 anni\n\n<b>Distanza media
+      dal Sole</b>\n1 433 530 000 km\n9,582 UA\n79,696 minuti luce\n\n<b>Temperature</b>\n-191/-130\xB0C\n\n<b>Gravit\xE0</b>\n10,44
       m/s^2 (1,065 g)\n100 kg sulla Terra = 106,5 kg su Saturno\n\n<b>Pressione</b>\n1,386
       volte quella terrestre\n\n<b>Numero di Satelliti</b>\n82 (Mimas, Encelado,
       Teti, ...)\n\n<b>Numero di Anelli</b>\n500/1000\n\n<b>Inclinazione Assiale</b>\n26,73\xB0"
@@ -88,11 +90,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 24384237568
     m_Localized: "<b>Scoperto da</b>\nWilliam Herschel\n\n<b>Data scoperta</b>\n13
-      Marzo 1781\n\n<b>Tipo</b>\nGigante ghiacciato\n\n<b>Diametro</b>\n51 118 km
-      (4,065 Terre)\n\n<b>Massa</b>\n8,681\xD710^25 kg (14,54 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n17 ore 14 minuti 24 secondi\n\n<b>Periodo Orbitale
-      (anno)</b>\n84,011 anni\n\n<b>Distanza media dal Sole</b>\n2 872 460 000 km\n19,2
-      UA\n2,66 ore luce\n\n<b>Temperature</b>\n\u2212218/-214/-205\xB0C\n\n<b>Gravit\xE0</b>\n8,69
+      Marzo 1781\n\n<b>Tipo</b>\nGigante ghiacciato\n\n<b>Et\xE0</b>\n4 503 000 000
+      anni\n\n<b>Diametro</b>\n51 118 km (4,065 Terre)\n\n<b>Massa</b>\n8,681\xD710^25
+      kg (14,54 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n17 ore 14 minuti
+      24 secondi\n\n<b>Periodo Orbitale (anno)</b>\n84,011 anni\n\n<b>Distanza media
+      dal Sole</b>\n2 872 460 000 km\n19,2 UA\n2,66 ore luce\n\n<b>Temperature</b>\n\u2212218/-214/-205\xB0C\n\n<b>Gravit\xE0</b>\n8,69
       m/s^2 (0,886 g)\n100 kg sulla Terra = 87 kg su Urano\n\n<b>Pressione</b>\n1,188
       volte quella terrestre\n\n<b>Numero di Satelliti</b>\n27 (Ariel, Umbriel, Titania,
       ...)\n\n<b>Numero di Anelli</b>\n13\n\n<b>Inclinazione Assiale</b>\n97,77\xB0"
@@ -100,54 +102,182 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 25827078144
     m_Localized: "<b>Scoperto da</b>\nJohann Galle\r\nUrbain Le Verrier\r\nJohn Couch
-      Adams\n\n<b>Data scoperta</b>\n23 Settembre 1846\n\n<b>Tipo</b>\nGigante ghiacciato\n\n<b>Diametro</b>\n49
-      528 km (3,88 Terre)\n\n<b>Massa</b>\n1,0243\xD710^26 kg (17,1 Terre)\n\n<b>Periodo
-      di Rotazione (giorno)</b>\n16 ore 6 minuti 36 secondi\n\n<b>Periodo Orbitale
-      (anno)</b>\n164,88 anni\n\n<b>Distanza media dal Sole</b>\n4 498 252 900 km\n30,069
-      UA\n4,17 ore luce\n\n<b>Temperature</b>\n-223/-220\xB0C\n\n<b>Gravit\xE0</b>\n11,15
+      Adams\n\n<b>Data scoperta</b>\n23 Settembre 1846\n\n<b>Tipo</b>\nGigante ghiacciato\n\n<b>Et\xE0</b>\n4
+      503 000 000 anni\n\n<b>Diametro</b>\n49 528 km (3,88 Terre)\n\n<b>Massa</b>\n1,0243\xD710^26
+      kg (17,1 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n16 ore 6 minuti 36
+      secondi\n\n<b>Periodo Orbitale (anno)</b>\n164,88 anni\n\n<b>Distanza media
+      dal Sole</b>\n4 498 252 900 km\n30,069 UA\n4,17 ore luce\n\n<b>Temperature</b>\n-223/-220\xB0C\n\n<b>Gravit\xE0</b>\n11,15
       m/s^2 (1,14 g)\n100 kg sulla Terra = 114 kg su Nettuno\n\n<b>Numero di Satelliti</b>\n14
       (Tritone, ...)\n\n<b>Numero di Anelli</b>\n10\n\n<b>Inclinazione Assiale</b>\n28,32\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 7397668679680
     m_Localized: "<b>Scoperto da</b>\nClyde W. Tombaugh\n\n<b>Data scoperta</b>\n18
-      Febbraio 1930\n\n<b>Tipo</b>\nNano\n\n<b>Diametro</b>\n2 376,6 km (0,19 Terre)\n\n<b>Massa</b>\n1,303\xD710^22
-      kg (0,00218 Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n6 giorni 9 ore
-      17 minuti 36 secondi\n\n<b>Periodo Orbitale (anno)</b>\n247,9 anni\n\n<b>Distanza
-      media dal Sole</b>\n5 906 380 000 km\n39,48 UA\n5,47 ore luce\n\n<b>Temperature</b>\n-233/-228/-223\xB0C\n\n<b>Gravit\xE0</b>\n0,62
+      Febbraio 1930\n\n<b>Tipo</b>\nNano\n\n<b>Et\xE0</b>\n4 600 000 000 anni\n\n<b>Diametro</b>\n2
+      376,6 km\n(0,19 Terre)\n(0,684 Lune)\n\n<b>Massa</b>\n1,303\xD710^22 kg (0,00218
+      Terre)\n\n<b>Periodo di Rotazione (giorno)</b>\n6 giorni 9 ore 17 minuti 36
+      secondi\n\n<b>Periodo Orbitale (anno)</b>\n247,9 anni\n\n<b>Distanza media
+      dal Sole</b>\n5 906 380 000 km\n39,48 UA\n5,47 ore luce\n\n<b>Temperature</b>\n-233/-228/-223\xB0C\n\n<b>Gravit\xE0</b>\n0,62
       m/s^2 (0,063 g)\n100 kg sulla Terra = 6,3 kg su Plutone\n\n<b>Pressione</b>\npressoch\xE9
       assente\n\n<b>Numero di Satelliti</b>\n5 (Caronte, ...)\n\n<b>Numero di Anelli</b>\n0\n\n<b>Inclinazione
       Assiale</b>\n122.53\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 2356428776534016
-    m_Localized: '<b>Discovered by</b>
-
-      Clyde W. Tombaugh'
+    m_Localized: "<b>Et\xE0</b>\n4 530 000 000 anni\n\n<b>Diametro</b>\n3 474,8 km
+      (0,2727 Terre)\n\n<b>Massa</b>\n7,342x10^22 km (0,0123 Terre)\n\n<b>Periodo
+      di Rotazione (giorno)</b>\n27,321 giorni\n\n<b>Periodo Orbitale (anno)</b>\n27
+      giorni 7 ore 43,2 minuti\n\n<b>Distanza media dalla Terra</b>\n384 400 km\n0,0025
+      UA\n1,28 secondi luce\n\n<b>Temperature</b>\n\u2212233/\u221223/123\xB0C\n\n<b>Gravit\xE0</b>\n1.622
+      m/s^2 (0.1654 g)\n100 kg sulla Terra = 16.54 kg sulla Luna\n\n<b>Pressione</b>\npressoch\xE9
+      assente\n\n<b>Inclinazione Assiale</b>\n1.5424\xB0"
     m_Metadata:
       m_Items: []
   - m_Id: 2356434036191232
-    m_Localized: '<b>Discovered by</b>
-
-      Clyde W. Tombaugh'
+    m_Localized: "<b>Scoperto da</b>\nGiuseppe Piazzi\n\n<b>Data scoperta</b>\n1
+      Gennaio 1801\n\n<b>Tipo</b>\nNano, Asteroide\n\n<b>Diametro</b>\n974,6 km\n(0,076
+      Terre)\n(0,28 Lune)\n\n<b>Massa</b>\n9,43x10^20 kg \n(0,00016 Terre)\n(0,0128
+      Lune)\n\n<b>Periodo di Rotazione (giorno)</b>\n9,074 ore\n\n<b>Periodo Orbitale
+      (anno)</b>\n4,6 anni\n\n<b>Distanza media dal Sole</b>\n413 690 000 km\n2,77
+      UA\n23 minuti luce\n\n<b>Temperature</b>\n-106/-34\xB0C"
     m_Metadata:
       m_Items: []
   - m_Id: 2356439539118080
-    m_Localized: '<b>Discovered by</b>
+    m_Localized: '<b>Scoperto da</b>
 
-      Clyde W. Tombaugh'
+
+
+      <b>Data scoperta</b>
+
+
+
+      <b>Tipo</b>
+
+
+
+      <b>Diametro</b>
+
+
+
+
+
+      <b>Massa</b>
+
+
+
+
+
+      <b>Periodo
+      di Rotazione (giorno)</b>
+
+
+
+      <b>Periodo Orbitale (anno)</b>
+
+
+
+      <b>Distanza
+      media dal Sole</b>
+
+
+
+
+
+      <b>Temperature</b>
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 2356443498541056
-    m_Localized: '<b>Discovered by</b>
+    m_Localized: '<b>Scoperto da</b>
 
-      Clyde W. Tombaugh'
+
+
+      <b>Data scoperta</b>
+
+
+
+      <b>Tipo</b>
+
+
+
+      <b>Diametro</b>
+
+
+
+
+
+      <b>Massa</b>
+
+
+
+
+
+      <b>Periodo
+      di Rotazione (giorno)</b>
+
+
+
+      <b>Periodo Orbitale (anno)</b>
+
+
+
+      <b>Distanza
+      media dal Sole</b>
+
+
+
+
+
+      <b>Temperature</b>
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 2356448531705856
-    m_Localized: '<b>Discovered by</b>
+    m_Localized: '<b>Scoperto da</b>
 
-      Clyde W. Tombaugh'
+
+
+      <b>Data scoperta</b>
+
+
+
+      <b>Tipo</b>
+
+
+
+      <b>Diametro</b>
+
+
+
+
+
+      <b>Massa</b>
+
+
+
+
+
+      <b>Periodo
+      di Rotazione (giorno)</b>
+
+
+
+      <b>Periodo Orbitale (anno)</b>
+
+
+
+      <b>Distanza
+      media dal Sole</b>
+
+
+
+
+
+      <b>Temperature</b>
+
+'
     m_Metadata:
       m_Items: []
   references:
