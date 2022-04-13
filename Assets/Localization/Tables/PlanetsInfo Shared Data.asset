@@ -71,6 +71,42 @@ MonoBehaviour:
     m_Key: Eris
     m_Metadata:
       m_Items: []
+  - m_Id: 9142225546637312
+    m_Key: SunInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9780988262084608
+    m_Key: SunProperty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9782221785919488
+    m_Key: SunSeenFromPlanets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784018990657536
+    m_Key: PlanetSizes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785740869890048
+    m_Key: ClosestStar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785742279176192
+    m_Key: ClosestGalaxy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785901427847168
+    m_Key: ClosestStarInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785903139123200
+    m_Key: ClosestGalaxyInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9811360593080320
+    m_Key: KuiperBeltAndOortCloud
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

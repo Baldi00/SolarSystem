@@ -5,16 +5,18 @@ using UnityEngine.UI;
 
 public class InfosMenuManager : MonoBehaviour
 {
+    private GameObject sunListEntry;
 	private GameObject planetsListEntry;
 	private GameObject moonsListEntry;
     private GameObject waw;
     private GameObject missionsListEntry;
-	private bool planetsOn, moonsOn, whereAreWeOn, missionsOn;
+	private bool sunOn, planetsOn, moonsOn, whereAreWeOn, missionsOn;
 	private ScrollRect scrollRect;
 
     // Start is called before the first frame update
     void Start()
     {
+        sunListEntry = GameObject.Find("SunListEntry");
         planetsListEntry = GameObject.Find("PlanetsListEntry");
         moonsListEntry = GameObject.Find("MoonsListEntry");
         waw = GameObject.Find("WhereAreWe");
@@ -30,28 +32,45 @@ public class InfosMenuManager : MonoBehaviour
 
     private void DisableAllSubmenus()
     {
+        if(sunListEntry != null) sunListEntry.SetActive(false);
         if(planetsListEntry != null) planetsListEntry.SetActive(false);
         if(moonsListEntry != null) moonsListEntry.SetActive(false);
         if(waw != null) waw.SetActive(false);
         if(missionsListEntry != null) missionsListEntry.SetActive(false);
+        sunOn = false;
         planetsOn = false;
         moonsOn = false;
         whereAreWeOn = false;
         missionsOn = false;
     }
 
+    public void ToggleSun()
+    {
+        if(sunOn)
+        {
+            DisableAllSubmenus();
+        }
+        else
+        {
+            DisableAllSubmenus();
+            sunListEntry.SetActive(true);
+            sunOn = true;
+        }
+        scrollRect.verticalNormalizedPosition = 1f;
+    }
+
     public void TogglePlanets()
     {
-    	if(planetsOn)
-    	{
-    		DisableAllSubmenus();
-    	}
-    	else
-    	{
-    		DisableAllSubmenus();
-	    	planetsListEntry.SetActive(true);
-	        planetsOn = true;
-    	}
+        if(planetsOn)
+        {
+            DisableAllSubmenus();
+        }
+        else
+        {
+            DisableAllSubmenus();
+            planetsListEntry.SetActive(true);
+            planetsOn = true;
+        }
         scrollRect.verticalNormalizedPosition = 1f;
     }
 

@@ -287,5 +287,51 @@ MonoBehaviour:
       9.377 light hours'
     m_Metadata:
       m_Items: []
+  - m_Id: 9142225546637312
+    m_Localized: "<b>Age:</b> 4 603 000 000 years\n<b>Type:</b> Star, Yellow dwarf\n<b>Mean
+      distance from the Milky Way core:</b> 29 000 light years\n<b>Orbital Period
+      around the Milky Way core:</b> 250 000 000 years = 1 galactic year\n<b>Diameter:</b>
+      1 391 000 km (109 Earths)\n<b>Mass:</b> 1,9891x10^30 kg (333038 Earths, 99,86%
+      of the total mass of the solar system)\n<b>Rotational Period:</b> 27 days 6
+      hours 36 minutes\n<b>Core temperature:</b> 15 000 000 \xB0C\n<b>Surface temperature:</b>
+      5 500 \xB0C\n<b>Corona temperature:</b> 5 000 000 \xB0C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9780988262084608
+    m_Localized: Sun Property
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9782221785919488
+    m_Localized: Sun seen from the other planets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784018990657536
+    m_Localized: Planet sizes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785740869890048
+    m_Localized: Closest Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785742279176192
+    m_Localized: Closest Galaxy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785901427847168
+    m_Localized: 'Proxima Centauri
+
+      Distance: 4.23 light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785903139123200
+    m_Localized: 'Andromeda (M31)
+
+      Distance: 2.54 million light years'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9811360593080320
+    m_Localized: Kuiper Belt and Oort Cloud
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

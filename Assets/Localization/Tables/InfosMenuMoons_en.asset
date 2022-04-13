@@ -106,5 +106,250 @@ MonoBehaviour:
     m_Localized: Charon (Pluto I)
     m_Metadata:
       m_Items: []
+  - m_Id: 9800423328837632
+    m_Localized: "\rOnly the main satellites of each planet are reported, there would
+      be more"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799504046452736
+    m_Localized: '<b>Discovered by:</b> Asaph Hall
+
+      <b>Discovery date:</b>
+      17 August 1877
+
+      <b>Planet distance:</b> 9 375 km
+
+      <b>Diameter:</b>
+      22.2 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799532659994624
+    m_Localized: '<b>Discovered by:</b> Asaph Hall
+
+      <b>Discovery date:</b>
+      12 August 1877
+
+      <b>Planet distance:</b> 23 458 km
+
+      <b>Diameter:</b>
+      12.4 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799623860940800
+    m_Localized: '<b>Discovered by:</b> Galileo Galilei
+
+      <b>Discovery date:</b>
+      7 January 1610
+
+      <b>Planet distance:</b> 421 700 km
+
+      <b>Diameter:</b>
+      3 642.6 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799625840652288
+    m_Localized: '<b>Discovered by:</b> Galileo Galilei
+
+      <b>Discovery date:</b>
+      7 January 1610
+
+      <b>Planet distance:</b> 671 034 km
+
+      <b>Diameter:</b>
+      3 121.6 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799627753254912
+    m_Localized: '<b>Discovered by:</b> Galileo Galilei
+
+      <b>Discovery date:</b>
+      7 January 1610
+
+      <b>Planet distance:</b> 1 070 400 km
+
+      <b>Diameter:</b>
+      5 262.4 km (biggest satellite of the Solar System)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799670837145600
+    m_Localized: '<b>Discovered by:</b> Galileo Galilei
+
+      <b>Discovery date:</b>
+      7 January 1610
+
+      <b>Planet distance:</b> 1 882 700 km
+
+      <b>Diameter:</b>
+      4 820.6 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799672984629248
+    m_Localized: '<b>Discovered by:</b> William Herschel
+
+      <b>Discovery date:</b>
+      17 September 1789
+
+      <b>Planet distance:</b> 185 539 km
+
+      <b>Diameter:</b>
+      396.4 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799675031449600
+    m_Localized: '<b>Discovered by:</b> William Herschel
+
+      <b>Discovery date:</b>
+      28 August 1789
+
+      <b>Planet distance:</b> 238 020 km
+
+      <b>Diameter:</b>
+      498.8 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799677212487680
+    m_Localized: '<b>Discovered by:</b> Giovanni Domenico Cassini
+
+      <b>Discovery
+      date:</b> 21 March 1684
+
+      <b>Planet distance:</b> 294 619 km
+
+      <b>Diameter:</b>
+      1 066 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799679158644736
+    m_Localized: '<b>Discovered by:</b> Giovanni Domenico Cassini
+
+      <b>Discovery
+      date:</b> 21 March 1684
+
+      <b>Planet distance:</b> 377 396 km
+
+      <b>Diameter:</b>
+      1 123,2 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799681067053056
+    m_Localized: '<b>Discovered by:</b> Giovanni Domenico Cassini
+
+      <b>Discovery
+      date:</b> 23 December 1672
+
+      <b>Planet distance:</b> 527 040 km
+
+      <b>Diameter:</b>
+      1 528 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799683352948736
+    m_Localized: '<b>Discovered by:</b> Christiaan Huygens
+
+      <b>Discovery date:</b>
+      25 March 1655
+
+      <b>Planet distance:</b> 1 221 830 km
+
+      <b>Diameter:</b>
+      5 150 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799685198442496
+    m_Localized: '<b>Discovered by:</b> Giovanni Domenico Cassini
+
+      <b>Discovery
+      date:</b> 25 October 1671
+
+      <b>Planet distance:</b> 3 560 851 km
+
+      <b>Diameter:</b>
+      1 471 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799687043936256
+    m_Localized: '<b>Discovered by:</b> William Lassell
+
+      <b>Discovery date:</b>
+      24 October 1851
+
+      <b>Planet distance:</b> 190 900 km
+
+      <b>Diameter:</b>
+      1 157.8 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799688922984448
+    m_Localized: '<b>Discovered by:</b> William Lassell
+
+      <b>Discovery date:</b>
+      24 October 1851
+
+      <b>Planet distance:</b> 266 000 km
+
+      <b>Diameter:</b>
+      1 169.4 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799690667814912
+    m_Localized: '<b>Discovered by:</b> William Herschel
+
+      <b>Discovery date:</b>
+      11 January 1787
+
+      <b>Planet distance:</b> 435 910 km
+
+      <b>Diameter:</b>
+      1 577.8 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799692681080832
+    m_Localized: '<b>Discovered by:</b> William Herschel
+
+      <b>Discovery date:</b>
+      11 January 1787
+
+      <b>Planet distance:</b> 583 519 km
+
+      <b>Diameter:</b>
+      1 522.8 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799694392356864
+    m_Localized: '<b>Discovered by:</b> Gerard Peter Kuiper
+
+      <b>Discovery date:</b>
+      16 February 1948
+
+      <b>Planet distance:</b> 129 872 km
+
+      <b>Diameter:</b>
+      471.6 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799696640503808
+    m_Localized: '<b>Discovered by:</b> William Lassell
+
+      <b>Discovery date:</b>
+      10 October 1846
+
+      <b>Planet distance:</b> 354 760 km
+
+      <b>Diameter:</b>
+      2 706.8 km'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9799701778526208
+    m_Localized: '<b>Discovered by:</b> James Christy
+
+      <b>Discovery date:</b>
+      22 June 1978
+
+      <b>Planet distance:</b> 19 571 km
+
+      <b>Diameter:</b>
+      1 207 km'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

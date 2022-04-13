@@ -20,8 +20,11 @@ public class InfosMenuEntry : MonoBehaviour
         {
             switch (gameObject.name)
             {
+                case "SunEntry":
+                    infosMenuManager.ToggleSun();
+                    break;
                 case "PlanetsEntry":
-                	infosMenuManager.TogglePlanets();
+                    infosMenuManager.TogglePlanets();
                     break;
                 case "MoonsEntry":
                 	infosMenuManager.ToggleMoons();

@@ -293,5 +293,52 @@ MonoBehaviour:
       9,377 ore luce'
     m_Metadata:
       m_Items: []
+  - m_Id: 9142225546637312
+    m_Localized: "<b>Et\xE0:</b> 4 603 000 000 anni\n<b>Classificazione:</b> Stella,
+      Nana gialla\n<b>Distanza dal centro della Via Lattea:</b> 29 000 anni luce\n<b>Periodo
+      orbitale attorno al centro della Via Lattea:</b> 250 000 000 anni = 1 anno
+      galattico\n<b>Diametro:</b> 1 391 000 km (109 Terre)\n<b>Massa:</b> 1,9891x10^30
+      kg (333038 Terre, 99,86% della massa complessiva del sistema solare)\n<b>Periodo
+      di Rotazione:</b> 27 giorni 6 ore 36 minuti\n<b>Temperatura nucleo:</b> 15
+      000 000 \xB0C\n<b>Temperatura superfice:</b> 5 500 \xB0C\n<b>Temperatura corona:</b>
+      5 000 000 \xB0C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9780988262084608
+    m_Localized: Caratteristiche del Sole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9782221785919488
+    m_Localized: Il Sole visto dagli altri pianeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784018990657536
+    m_Localized: Dimensioni dei pianeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785740869890048
+    m_Localized: "Stella pi\xF9 vicina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785742279176192
+    m_Localized: "Galassia pi\xF9 vicina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785901427847168
+    m_Localized: 'Proxima Centauri
+
+      Distanza: 4,23 anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9785903139123200
+    m_Localized: 'Andromeda (M31)
+
+      Distanza: 2,54 milioni di anni luce'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9811360593080320
+    m_Localized: Fascia di Kuiper e Nube di Oort
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
