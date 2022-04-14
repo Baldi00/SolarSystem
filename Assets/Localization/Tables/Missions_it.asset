@@ -266,5 +266,43 @@ MonoBehaviour:
       formazione delle strutture superficiali.'
     m_Metadata:
       m_Items: []
+  - m_Id: 9047882345345024
+    m_Localized: 'NASA (1962-1973)
+
+      Scopo: esplorazione di Marte (Mariner 3,4,6,7,8,9),
+      Venere (1,2,5,10) e Mercurio (10).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047940289654784
+    m_Localized: "ESA (2003-presente)\nScopo: esplorazione di Marte. ha prodotto
+      la prima prova diretta della presenza di acqua su Marte nel polo sud del pianeta.
+      Ha individuato metano nell'atmosfera sopra la zona equatoriale e la presenza
+      di ghiaccio sotterraneo ad indicare una passata attivit\xE0 vulcanica o una
+      passata presenza di microrganismi. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047944886611968
+    m_Localized: 'NASA (2001-presente)
+
+      Scopo: esplorazione di Marte. La missione
+      prevede l''uso di spettrometri e fotocamere termiche per individuare la presenza
+      di acqua liquida o ghiaccio, studiare la geologia del pianeta e analizzare
+      le radiazioni che lo circondano.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047948678262784
+    m_Localized: "NASA (1996-1997)\nScopo: esplorazione di Marte. E' stata la prima
+      missione ad aver trasportato un rover, Sojourner, sul pianeta. Il lander oper\xF2
+      come una stazione meteorologica, mentre il rover analizz\xF2 il suolo e le
+      rocce del sito di atterraggio ed effettu\xF2 diversi esperimenti sulla superficie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047951832379392
+    m_Localized: "NASA (2006-presente)\nScopo: esplorazione di Plutone e del suo
+      satellite Caronte. Lanciata nel 2006 ha raggiunto Plutone nel 2015. Ora sta
+      viaggiando verso le parti pi\xF9 esterne del sistema solare. Per dicembre 2038
+      \xE8 previsto il raggiungimento di una distanza di 100 UA dal Sole."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
