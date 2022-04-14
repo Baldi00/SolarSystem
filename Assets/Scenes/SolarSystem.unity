@@ -544,7 +544,7 @@ RectTransform:
   - {fileID: 1963622420}
   - {fileID: 1740510216}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -563,6 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &24151518
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +724,7 @@ GameObject:
   - component: {fileID: 34188302}
   - component: {fileID: 34188304}
   - component: {fileID: 34188303}
+  - component: {fileID: 34188305}
   m_Layer: 5
   m_Name: LunarOrbiterText
   m_TagString: Untagged
@@ -782,9 +784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &34188304
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -793,6 +793,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34188301}
   m_CullTransparentMesh: 1
+--- !u!114 &34188305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34188301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047880734732288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 34188303}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &40179732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1364,7 @@ GameObject:
   - component: {fileID: 70552893}
   - component: {fileID: 70552895}
   - component: {fileID: 70552894}
+  - component: {fileID: 70552896}
   m_Layer: 5
   m_Name: SpitzerText
   m_TagString: Untagged
@@ -1384,9 +1424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &70552895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1395,6 +1433,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70552892}
   m_CullTransparentMesh: 1
+--- !u!114 &70552896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70552892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047965090574336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 70552894}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &80131114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1988,6 +2065,125 @@ MonoBehaviour:
         m_CallState: 2
   references:
     version: 1
+--- !u!1 &94785163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 94785164}
+  - component: {fileID: 94785167}
+  - component: {fileID: 94785166}
+  - component: {fileID: 94785165}
+  m_Layer: 5
+  m_Name: MoonsDisclaimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &94785164
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94785163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1609251492}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 280, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &94785165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94785163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:4ef49927f502b7a4aa7eafa5017d3b1e
+    m_TableEntryReference:
+      m_KeyId: 9800423328837632
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 94785166}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
+--- !u!114 &94785166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94785163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &94785167
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94785163}
+  m_CullTransparentMesh: 1
 --- !u!1 &100662398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +2800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &125590022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,6 +3082,7 @@ GameObject:
   - component: {fileID: 128440556}
   - component: {fileID: 128440558}
   - component: {fileID: 128440557}
+  - component: {fileID: 128440559}
   m_Layer: 5
   m_Name: WebbText
   m_TagString: Untagged
@@ -2944,9 +3142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &128440558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2955,6 +3151,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128440555}
   m_CullTransparentMesh: 1
+--- !u!114 &128440559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128440555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047971629494272
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 128440557}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &130859696
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,6 +4850,7 @@ GameObject:
   - component: {fileID: 183792049}
   - component: {fileID: 183792051}
   - component: {fileID: 183792050}
+  - component: {fileID: 183792052}
   m_Layer: 5
   m_Name: ApolloText
   m_TagString: Untagged
@@ -4674,9 +4910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &183792051
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4685,6 +4919,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183792048}
   m_CullTransparentMesh: 1
+--- !u!114 &183792052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183792048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047853626945536
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 183792050}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &188708955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6392,7 +6665,7 @@ RectTransform:
   - {fileID: 1646023500}
   - {fileID: 1495662436}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6411,6 +6684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &271341003
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,7 +6967,7 @@ RectTransform:
   - {fileID: 103243887}
   - {fileID: 2097212708}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6712,6 +6986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &298375160
 GameObject:
   m_ObjectHideFlags: 0
@@ -7050,6 +7325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &304414575
 GameObject:
   m_ObjectHideFlags: 0
@@ -7226,7 +7502,7 @@ RectTransform:
   - {fileID: 333772786}
   - {fileID: 665616519}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7245,6 +7521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &305628489
 GameObject:
   m_ObjectHideFlags: 0
@@ -7392,7 +7669,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7688,6 +7965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &317062353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7871,6 +8149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &326060212
 GameObject:
   m_ObjectHideFlags: 0
@@ -8512,6 +8791,7 @@ GameObject:
   - component: {fileID: 341336807}
   - component: {fileID: 341336809}
   - component: {fileID: 341336808}
+  - component: {fileID: 341336810}
   m_Layer: 5
   m_Name: MagellanText
   m_TagString: Untagged
@@ -8571,9 +8851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &341336809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8582,6 +8860,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341336806}
   m_CullTransparentMesh: 1
+--- !u!114 &341336810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341336806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047881540038656
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 341336808}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &344575268
 GameObject:
   m_ObjectHideFlags: 0
@@ -8884,7 +9201,7 @@ RectTransform:
   - {fileID: 1031024644}
   - {fileID: 341336807}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8903,6 +9220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &355151629
 GameObject:
   m_ObjectHideFlags: 0
@@ -9097,7 +9415,7 @@ RectTransform:
   - {fileID: 1152943344}
   - {fileID: 152599943}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9116,6 +9434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &360162510
 GameObject:
   m_ObjectHideFlags: 0
@@ -9384,6 +9703,125 @@ MonoBehaviour:
         m_CallState: 2
   references:
     version: 1
+--- !u!1 &364391538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364391539}
+  - component: {fileID: 364391542}
+  - component: {fileID: 364391541}
+  - component: {fileID: 364391540}
+  m_Layer: 5
+  m_Name: SolarOrbiterText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &364391539
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364391538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1597821052}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 45.15, y: -36.7}
+  m_SizeDelta: {x: 289.2, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &364391540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364391538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9058205957746688
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 364391541}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
+--- !u!114 &364391541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364391538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &364391542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364391538}
+  m_CullTransparentMesh: 1
 --- !u!1 &369677498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9491,7 +9929,7 @@ RectTransform:
   - {fileID: 830385771}
   - {fileID: 974326819}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9510,6 +9948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &379003541
 GameObject:
   m_ObjectHideFlags: 0
@@ -9542,7 +9981,7 @@ RectTransform:
   - {fileID: 393327523}
   - {fileID: 1336448390}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9561,6 +10000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &384014487
 GameObject:
   m_ObjectHideFlags: 0
@@ -9901,6 +10341,7 @@ GameObject:
   - component: {fileID: 390751791}
   - component: {fileID: 390751793}
   - component: {fileID: 390751792}
+  - component: {fileID: 390751794}
   m_Layer: 5
   m_Name: CassiniText
   m_TagString: Untagged
@@ -9960,9 +10401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &390751793
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9971,6 +10410,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390751790}
   m_CullTransparentMesh: 1
+--- !u!114 &390751794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390751790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047870194446336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 390751792}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &393327522
 GameObject:
   m_ObjectHideFlags: 0
@@ -10220,6 +10698,7 @@ GameObject:
   - component: {fileID: 399185666}
   - component: {fileID: 399185668}
   - component: {fileID: 399185667}
+  - component: {fileID: 399185669}
   m_Layer: 5
   m_Name: ChandraText
   m_TagString: Untagged
@@ -10279,9 +10758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &399185668
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10290,6 +10767,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399185665}
   m_CullTransparentMesh: 1
+--- !u!114 &399185669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399185665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047871133970432
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 399185667}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &404530647
 GameObject:
   m_ObjectHideFlags: 0
@@ -11138,7 +11654,7 @@ RectTransform:
   - {fileID: 255178512}
   - {fileID: 1451891908}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11157,6 +11673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &444543247
 GameObject:
   m_ObjectHideFlags: 0
@@ -11236,6 +11753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &466030488
 GameObject:
   m_ObjectHideFlags: 0
@@ -11516,6 +12034,7 @@ GameObject:
   - component: {fileID: 478958545}
   - component: {fileID: 478958547}
   - component: {fileID: 478958546}
+  - component: {fileID: 478958548}
   m_Layer: 5
   m_Name: NewHorizonsText
   m_TagString: Untagged
@@ -11575,9 +12094,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &478958547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11586,6 +12103,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478958544}
   m_CullTransparentMesh: 1
+--- !u!114 &478958548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478958544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047951832379392
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 478958546}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &483827686
 GameObject:
   m_ObjectHideFlags: 0
@@ -11781,7 +12337,7 @@ RectTransform:
   - {fileID: 1706506531}
   - {fileID: 2121496351}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11800,6 +12356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &490068875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11986,6 +12543,7 @@ GameObject:
   - component: {fileID: 499721118}
   - component: {fileID: 499721120}
   - component: {fileID: 499721119}
+  - component: {fileID: 499721121}
   m_Layer: 5
   m_Name: JunoText
   m_TagString: Untagged
@@ -12045,9 +12603,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &499721120
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12056,6 +12612,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499721117}
   m_CullTransparentMesh: 1
+--- !u!114 &499721121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499721117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047879124119552
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 499721119}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &500508775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13563,6 +14158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &571144943
 GameObject:
   m_ObjectHideFlags: 0
@@ -13626,6 +14222,7 @@ GameObject:
   - component: {fileID: 580073026}
   - component: {fileID: 580073028}
   - component: {fileID: 580073027}
+  - component: {fileID: 580073029}
   m_Layer: 5
   m_Name: HubbleText
   m_TagString: Untagged
@@ -13685,9 +14282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &580073028
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13696,6 +14291,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580073025}
   m_CullTransparentMesh: 1
+--- !u!114 &580073029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580073025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047876771115008
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 580073027}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &580500338
 GameObject:
   m_ObjectHideFlags: 0
@@ -14138,6 +14772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!65 &591982535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14162,6 +14797,7 @@ GameObject:
   - component: {fileID: 593247036}
   - component: {fileID: 593247038}
   - component: {fileID: 593247037}
+  - component: {fileID: 593247039}
   m_Layer: 5
   m_Name: MarinerText
   m_TagString: Untagged
@@ -14221,9 +14857,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &593247038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14232,6 +14866,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593247035}
   m_CullTransparentMesh: 1
+--- !u!114 &593247039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593247035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047882345345024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 593247037}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &611028176
 GameObject:
   m_ObjectHideFlags: 0
@@ -14264,7 +14937,7 @@ RectTransform:
   - {fileID: 1707490813}
   - {fileID: 70552893}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14283,6 +14956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &614231284
 GameObject:
   m_ObjectHideFlags: 0
@@ -14456,7 +15130,7 @@ RectTransform:
   - {fileID: 1835775128}
   - {fileID: 2062346604}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14475,6 +15149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &634015209
 GameObject:
   m_ObjectHideFlags: 0
@@ -14486,6 +15161,7 @@ GameObject:
   - component: {fileID: 634015210}
   - component: {fileID: 634015212}
   - component: {fileID: 634015211}
+  - component: {fileID: 634015213}
   m_Layer: 5
   m_Name: DawnText
   m_TagString: Untagged
@@ -14545,9 +15221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &634015212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14556,6 +15230,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634015209}
   m_CullTransparentMesh: 1
+--- !u!114 &634015213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634015209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047873688301568
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 634015211}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &634483355
 GameObject:
   m_ObjectHideFlags: 0
@@ -14760,6 +15473,7 @@ GameObject:
   - component: {fileID: 637455805}
   - component: {fileID: 637455807}
   - component: {fileID: 637455806}
+  - component: {fileID: 637455808}
   m_Layer: 5
   m_Name: CuriosityText
   m_TagString: Untagged
@@ -14819,9 +15533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &637455807
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14830,6 +15542,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637455804}
   m_CullTransparentMesh: 1
+--- !u!114 &637455808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637455804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047872039940096
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 637455806}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &640560193
 GameObject:
   m_ObjectHideFlags: 0
@@ -15075,6 +15826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!65 &648837010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16135,7 +16887,6 @@ RectTransform:
   - {fileID: 1103362797}
   - {fileID: 304348180}
   - {fileID: 557344383}
-  - {fileID: 805488653}
   - {fileID: 378867818}
   - {fileID: 959753495}
   - {fileID: 906855907}
@@ -16160,6 +16911,7 @@ RectTransform:
   - {fileID: 835282008}
   - {fileID: 1410027348}
   - {fileID: 867625134}
+  - {fileID: 1597821052}
   m_Father: {fileID: 779901426}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16348,7 +17100,7 @@ RectTransform:
   - {fileID: 1575623995}
   - {fileID: 1327008513}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16367,6 +17119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &683472039
 GameObject:
   m_ObjectHideFlags: 0
@@ -16736,6 +17489,7 @@ GameObject:
   - component: {fileID: 699220795}
   - component: {fileID: 699220797}
   - component: {fileID: 699220796}
+  - component: {fileID: 699220798}
   m_Layer: 5
   m_Name: SputnikText
   m_TagString: Untagged
@@ -16795,9 +17549,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &699220797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16806,6 +17558,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699220794}
   m_CullTransparentMesh: 1
+--- !u!114 &699220798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699220794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047965719719936
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 699220796}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &700611798
 GameObject:
   m_ObjectHideFlags: 0
@@ -16838,7 +17629,7 @@ RectTransform:
   - {fileID: 246657992}
   - {fileID: 873987730}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16857,6 +17648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &702577990
 GameObject:
   m_ObjectHideFlags: 0
@@ -17042,6 +17834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &708024611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17087,7 +17880,7 @@ RectTransform:
   - {fileID: 641487219}
   - {fileID: 1608442259}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17106,6 +17899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &711865384
 GameObject:
   m_ObjectHideFlags: 0
@@ -18511,6 +19305,7 @@ GameObject:
   - component: {fileID: 791318032}
   - component: {fileID: 791318034}
   - component: {fileID: 791318033}
+  - component: {fileID: 791318035}
   m_Layer: 5
   m_Name: OpportunityText
   m_TagString: Untagged
@@ -18570,9 +19365,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &791318034
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18581,6 +19374,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791318031}
   m_CullTransparentMesh: 1
+--- !u!114 &791318035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791318031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047955426897920
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 791318033}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &797276241
 GameObject:
   m_ObjectHideFlags: 0
@@ -18613,7 +19445,7 @@ RectTransform:
   - {fileID: 220923514}
   - {fileID: 1884958269}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18632,57 +19464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &805488652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 805488653}
-  - component: {fileID: 805488654}
-  m_Layer: 5
-  m_Name: DeepSpaceEntry
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &805488653
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805488652}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1285903894}
-  - {fileID: 1018409765}
-  - {fileID: 935273311}
-  m_Father: {fileID: 669760897}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &805488654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805488652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &815400513
 GameObject:
   m_ObjectHideFlags: 0
@@ -18715,7 +19497,7 @@ RectTransform:
   - {fileID: 468702608}
   - {fileID: 732845134}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18734,6 +19516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &822738984
 GameObject:
   m_ObjectHideFlags: 0
@@ -19509,7 +20292,7 @@ RectTransform:
   - {fileID: 528399120}
   - {fileID: 2068241978}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19528,6 +20311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &840495291
 GameObject:
   m_ObjectHideFlags: 0
@@ -19889,7 +20673,7 @@ RectTransform:
   - {fileID: 1704577828}
   - {fileID: 499721118}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19908,6 +20692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &843486526
 GameObject:
   m_ObjectHideFlags: 0
@@ -20081,6 +20866,7 @@ GameObject:
   - component: {fileID: 853731707}
   - component: {fileID: 853731709}
   - component: {fileID: 853731708}
+  - component: {fileID: 853731710}
   m_Layer: 5
   m_Name: IngenuityText
   m_TagString: Untagged
@@ -20140,9 +20926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &853731709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20151,6 +20935,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853731706}
   m_CullTransparentMesh: 1
+--- !u!114 &853731710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853731706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047877580615680
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 853731708}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &854684692
 GameObject:
   m_ObjectHideFlags: 0
@@ -20321,6 +21144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &855247028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20500,7 +21324,7 @@ RectTransform:
   - {fileID: 40179733}
   - {fileID: 128440556}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20519,6 +21343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &873987729
 GameObject:
   m_ObjectHideFlags: 0
@@ -21167,6 +21992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &902758748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21361,7 +22187,7 @@ RectTransform:
   - {fileID: 316234564}
   - {fileID: 580073026}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -21380,6 +22206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &908273218
 GameObject:
   m_ObjectHideFlags: 0
@@ -21882,7 +22709,7 @@ RectTransform:
   - {fileID: 1490250497}
   - {fileID: 34188302}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -21901,6 +22728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &922091768
 GameObject:
   m_ObjectHideFlags: 0
@@ -22162,6 +22990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &923571178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22175,6 +23004,81 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 411.86, y: 23, z: 1}
   m_Center: {x: -46.38, y: 0, z: 0}
+--- !u!1 &926447905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926447906}
+  - component: {fileID: 926447908}
+  - component: {fileID: 926447907}
+  m_Layer: 5
+  m_Name: SolarOrbiterImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &926447906
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926447905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1597821052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -154.8, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &926447907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926447905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7af562d3e6c8c2e428a1ff305130175d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &926447908
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926447905}
+  m_CullTransparentMesh: 1
 --- !u!1 &931782225
 GameObject:
   m_ObjectHideFlags: 0
@@ -22369,87 +23273,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934316853}
   m_CullTransparentMesh: 1
---- !u!1 &935273310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 935273311}
-  - component: {fileID: 935273313}
-  - component: {fileID: 935273312}
-  m_Layer: 5
-  m_Name: DeepSpaceText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &935273311
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935273310}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 805488653}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.15, y: -36.7}
-  m_SizeDelta: {x: 289.2, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &935273312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935273310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
---- !u!222 &935273313
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935273310}
-  m_CullTransparentMesh: 1
 --- !u!1 &938401668
 GameObject:
   m_ObjectHideFlags: 0
@@ -22482,7 +23305,7 @@ RectTransform:
   - {fileID: 1191219450}
   - {fileID: 1138993626}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22501,6 +23324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &939836836
 GameObject:
   m_ObjectHideFlags: 0
@@ -22758,7 +23582,7 @@ RectTransform:
   - {fileID: 1600851889}
   - {fileID: 1574714623}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22777,6 +23601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &960888012
 GameObject:
   m_ObjectHideFlags: 0
@@ -22997,6 +23822,7 @@ GameObject:
   - component: {fileID: 974326819}
   - component: {fileID: 974326821}
   - component: {fileID: 974326820}
+  - component: {fileID: 974326822}
   m_Layer: 5
   m_Name: ExoMarsText
   m_TagString: Untagged
@@ -23056,9 +23882,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &974326821
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23067,6 +23891,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974326818}
   m_CullTransparentMesh: 1
+--- !u!114 &974326822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974326818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047875194056704
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 974326820}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &977048699
 GameObject:
   m_ObjectHideFlags: 0
@@ -23568,6 +24431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1006870196
 GameObject:
   m_ObjectHideFlags: 0
@@ -23619,6 +24483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &1006870199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24374,125 +25239,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017800576}
   m_CullTransparentMesh: 1
---- !u!1 &1018409764
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1018409765}
-  - component: {fileID: 1018409768}
-  - component: {fileID: 1018409767}
-  - component: {fileID: 1018409766}
-  m_Layer: 5
-  m_Name: DeepSpaceTitleText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1018409765
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018409764}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 805488653}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.15, y: 33.9}
-  m_SizeDelta: {x: 289.2, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1018409766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018409764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
-    m_TableEntryReference:
-      m_KeyId: 205485895680
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  m_FormatArguments: []
-  m_UpdateString:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1018409767}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  references:
-    version: 1
---- !u!114 &1018409767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018409764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 8cad33950f6804745a4a57d72fd6bb2d, type: 3}
-    m_FontSize: 12
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1018409768
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018409764}
-  m_CullTransparentMesh: 1
 --- !u!1 &1031024643
 GameObject:
   m_ObjectHideFlags: 0
@@ -24898,7 +25644,7 @@ RectTransform:
   - {fileID: 15257822}
   - {fileID: 1714996335}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24917,6 +25663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1064901856
 GameObject:
   m_ObjectHideFlags: 0
@@ -25187,7 +25934,7 @@ RectTransform:
   - {fileID: 654209875}
   - {fileID: 1757822241}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -25206,6 +25953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1081825268
 GameObject:
   m_ObjectHideFlags: 0
@@ -25507,6 +26255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1111339013
 GameObject:
   m_ObjectHideFlags: 0
@@ -25922,6 +26671,7 @@ GameObject:
   - component: {fileID: 1138262315}
   - component: {fileID: 1138262317}
   - component: {fileID: 1138262316}
+  - component: {fileID: 1138262318}
   m_Layer: 5
   m_Name: DartText
   m_TagString: Untagged
@@ -25981,9 +26731,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1138262317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25992,6 +26740,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138262314}
   m_CullTransparentMesh: 1
+--- !u!114 &1138262318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138262314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047872882995200
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1138262316}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1138993625
 GameObject:
   m_ObjectHideFlags: 0
@@ -27033,6 +27820,7 @@ GameObject:
   - component: {fileID: 1160362680}
   - component: {fileID: 1160362682}
   - component: {fileID: 1160362681}
+  - component: {fileID: 1160362683}
   m_Layer: 5
   m_Name: VoyagerText
   m_TagString: Untagged
@@ -27092,9 +27880,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1160362682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27103,6 +27889,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160362679}
   m_CullTransparentMesh: 1
+--- !u!114 &1160362683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160362679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047969213575168
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1160362681}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1163411777
 GameObject:
   m_ObjectHideFlags: 0
@@ -28099,6 +28924,7 @@ GameObject:
   - component: {fileID: 1201181858}
   - component: {fileID: 1201181860}
   - component: {fileID: 1201181859}
+  - component: {fileID: 1201181861}
   m_Layer: 5
   m_Name: ArtemisText
   m_TagString: Untagged
@@ -28158,9 +28984,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1201181860
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28169,6 +28993,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201181857}
   m_CullTransparentMesh: 1
+--- !u!114 &1201181861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201181857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047861201858560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1201181859}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1201564116
 GameObject:
   m_ObjectHideFlags: 0
@@ -28803,7 +29666,7 @@ RectTransform:
   - {fileID: 125590023}
   - {fileID: 362893314}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28822,6 +29685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1258265785
 GameObject:
   m_ObjectHideFlags: 0
@@ -29449,6 +30313,7 @@ GameObject:
   - component: {fileID: 1282706425}
   - component: {fileID: 1282706427}
   - component: {fileID: 1282706426}
+  - component: {fileID: 1282706428}
   m_Layer: 5
   m_Name: KeplerText
   m_TagString: Untagged
@@ -29508,9 +30373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1282706427
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29519,6 +30382,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282706424}
   m_CullTransparentMesh: 1
+--- !u!114 &1282706428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282706424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047879925231616
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1282706426}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1283445238
 GameObject:
   m_ObjectHideFlags: 0
@@ -29570,6 +30472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &1283445241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29821,81 +30724,6 @@ MonoBehaviour:
   target: {fileID: 0}
   zoom: 0
   zoomSensitivity: 0
---- !u!1 &1285903893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1285903894}
-  - component: {fileID: 1285903896}
-  - component: {fileID: 1285903895}
-  m_Layer: 5
-  m_Name: DeepSpaceImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1285903894
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285903893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 805488653}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154.8, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1285903895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285903893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44b3edb00d9501c42894e104048753b6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1285903896
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285903893}
-  m_CullTransparentMesh: 1
 --- !u!1 &1324074401
 GameObject:
   m_ObjectHideFlags: 0
@@ -30058,6 +30886,7 @@ GameObject:
   - component: {fileID: 1327008513}
   - component: {fileID: 1327008515}
   - component: {fileID: 1327008514}
+  - component: {fileID: 1327008516}
   m_Layer: 5
   m_Name: MarsPathfinderText
   m_TagString: Untagged
@@ -30117,9 +30946,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1327008515
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30128,6 +30955,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327008512}
   m_CullTransparentMesh: 1
+--- !u!114 &1327008516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327008512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047948678262784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1327008514}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1327052952
 GameObject:
   m_ObjectHideFlags: 0
@@ -30664,7 +31530,7 @@ RectTransform:
   - {fileID: 500508776}
   - {fileID: 1850471950}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -30683,6 +31549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1348799830
 GameObject:
   m_ObjectHideFlags: 0
@@ -41352,6 +42219,125 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378773707}
   m_CullTransparentMesh: 1
+--- !u!1 &1381692844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381692845}
+  - component: {fileID: 1381692848}
+  - component: {fileID: 1381692847}
+  - component: {fileID: 1381692846}
+  m_Layer: 5
+  m_Name: SolarOrbiterTitleText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1381692845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381692844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1597821052}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 45.15, y: 33.9}
+  m_SizeDelta: {x: 289.2, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1381692846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381692844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9058203751542784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1381692847}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 1
+--- !u!114 &1381692847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381692844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8cad33950f6804745a4a57d72fd6bb2d, type: 3}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1381692848
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381692844}
+  m_CullTransparentMesh: 1
 --- !u!1 &1382702922
 GameObject:
   m_ObjectHideFlags: 0
@@ -41403,6 +42389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &1382702925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41616,7 +42603,7 @@ RectTransform:
   - {fileID: 146220260}
   - {fileID: 1472251032}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -41635,6 +42622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1410027347
 GameObject:
   m_ObjectHideFlags: 0
@@ -41667,7 +42655,7 @@ RectTransform:
   - {fileID: 394272034}
   - {fileID: 1160362680}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -41686,6 +42674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1412066388
 GameObject:
   m_ObjectHideFlags: 0
@@ -41737,6 +42726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!65 &1412066391
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42609,6 +43599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!1 &1460419238
 GameObject:
   m_ObjectHideFlags: 0
@@ -42641,7 +43632,7 @@ RectTransform:
   - {fileID: 2088757726}
   - {fileID: 478958545}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -42660,6 +43651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1460440245
 GameObject:
   m_ObjectHideFlags: 0
@@ -42776,6 +43768,7 @@ GameObject:
   - component: {fileID: 1472251032}
   - component: {fileID: 1472251034}
   - component: {fileID: 1472251033}
+  - component: {fileID: 1472251035}
   m_Layer: 5
   m_Name: PerseveranceText
   m_TagString: Untagged
@@ -42835,9 +43828,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1472251034
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42846,6 +43837,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472251031}
   m_CullTransparentMesh: 1
+--- !u!114 &1472251035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472251031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047959184994304
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1472251033}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1477342939
 GameObject:
   m_ObjectHideFlags: 0
@@ -43756,7 +44786,7 @@ RectTransform:
   - {fileID: 1745527897}
   - {fileID: 1633669876}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -43775,6 +44805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1508444587
 GameObject:
   m_ObjectHideFlags: 0
@@ -44463,7 +45494,7 @@ RectTransform:
   - {fileID: 1217807004}
   - {fileID: 1614571073}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -44482,6 +45513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1557829111
 GameObject:
   m_ObjectHideFlags: 0
@@ -44644,7 +45676,7 @@ RectTransform:
   - {fileID: 998019961}
   - {fileID: 2029326393}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -44663,6 +45695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1566171381
 GameObject:
   m_ObjectHideFlags: 0
@@ -44749,6 +45782,7 @@ GameObject:
   - component: {fileID: 1574714623}
   - component: {fileID: 1574714625}
   - component: {fileID: 1574714624}
+  - component: {fileID: 1574714626}
   m_Layer: 5
   m_Name: GalileoText
   m_TagString: Untagged
@@ -44808,9 +45842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1574714625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -44819,6 +45851,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574714622}
   m_CullTransparentMesh: 1
+--- !u!114 &1574714626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574714622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047875999363072
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1574714624}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1575623994
 GameObject:
   m_ObjectHideFlags: 0
@@ -45013,6 +46084,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578027125}
   m_CullTransparentMesh: 1
+--- !u!1 &1597821051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1597821052}
+  - component: {fileID: 1597821053}
+  m_Layer: 5
+  m_Name: SolarOrbiterEntry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1597821052
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597821051}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 926447906}
+  - {fileID: 1381692845}
+  - {fileID: 364391539}
+  m_Father: {fileID: 669760897}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1597821053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597821051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1600851888
 GameObject:
   m_ObjectHideFlags: 0
@@ -45194,6 +46317,7 @@ GameObject:
   - component: {fileID: 1608442259}
   - component: {fileID: 1608442261}
   - component: {fileID: 1608442260}
+  - component: {fileID: 1608442262}
   m_Layer: 5
   m_Name: PioneerText
   m_TagString: Untagged
@@ -45253,9 +46377,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1608442261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45264,6 +46386,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608442258}
   m_CullTransparentMesh: 1
+--- !u!114 &1608442262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608442258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047962775318528
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1608442260}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1609251491
 GameObject:
   m_ObjectHideFlags: 0
@@ -45293,6 +46454,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 94785164}
   - {fileID: 490068873}
   - {fileID: 1853720636}
   - {fileID: 359806707}
@@ -46524,6 +47686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!65 &1649984556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46720,7 +47883,7 @@ RectTransform:
   - {fileID: 218768789}
   - {fileID: 653586620}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -46739,6 +47902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1661721874
 GameObject:
   m_ObjectHideFlags: 0
@@ -46846,7 +48010,7 @@ RectTransform:
   - {fileID: 305628490}
   - {fileID: 853731707}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -46865,6 +48029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1676821245
 GameObject:
   m_ObjectHideFlags: 0
@@ -46916,6 +48081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!65 &1676821248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47023,6 +48189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!1 &1695876394
 GameObject:
   m_ObjectHideFlags: 0
@@ -47519,6 +48686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!1 &1714996334
 GameObject:
   m_ObjectHideFlags: 0
@@ -48193,6 +49361,7 @@ GameObject:
   - component: {fileID: 1740510216}
   - component: {fileID: 1740510218}
   - component: {fileID: 1740510217}
+  - component: {fileID: 1740510219}
   m_Layer: 5
   m_Name: ShuttleText
   m_TagString: Untagged
@@ -48252,9 +49421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1740510218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48263,6 +49430,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740510215}
   m_CullTransparentMesh: 1
+--- !u!114 &1740510219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740510215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047963714842624
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1740510217}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1745527896
 GameObject:
   m_ObjectHideFlags: 0
@@ -48563,7 +49769,7 @@ RectTransform:
   - {fileID: 1446514140}
   - {fileID: 1831820151}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -48582,6 +49788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1757822240
 GameObject:
   m_ObjectHideFlags: 0
@@ -49284,7 +50491,7 @@ RectTransform:
   - {fileID: 322101111}
   - {fileID: 791318032}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -49303,6 +50510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1790912966
 GameObject:
   m_ObjectHideFlags: 0
@@ -49884,6 +51092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 5c44e5f841350104b88b062d16bcda7f, type: 3}
 --- !u!1 &1818196094
 GameObject:
   m_ObjectHideFlags: 0
@@ -50280,6 +51489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!65 &1831559628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50304,6 +51514,7 @@ GameObject:
   - component: {fileID: 1831820151}
   - component: {fileID: 1831820153}
   - component: {fileID: 1831820152}
+  - component: {fileID: 1831820154}
   m_Layer: 5
   m_Name: SpiritText
   m_TagString: Untagged
@@ -50363,9 +51574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1831820153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50374,6 +51583,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831820150}
   m_CullTransparentMesh: 1
+--- !u!114 &1831820154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831820150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047964415291392
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1831820152}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1835775127
 GameObject:
   m_ObjectHideFlags: 0
@@ -50576,7 +51824,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 241065899}
   m_Direction: 0
   m_Value: 1
-  m_Size: 0.022109643
+  m_Size: 0.022045823
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -50749,6 +51997,7 @@ GameObject:
   - component: {fileID: 1850471950}
   - component: {fileID: 1850471952}
   - component: {fileID: 1850471951}
+  - component: {fileID: 1850471953}
   m_Layer: 5
   m_Name: ISSText
   m_TagString: Untagged
@@ -50808,9 +52057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &1850471952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50819,6 +52066,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850471949}
   m_CullTransparentMesh: 1
+--- !u!114 &1850471953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850471949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047878352367616
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1850471951}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &1850965313
 GameObject:
   m_ObjectHideFlags: 0
@@ -50946,7 +52232,7 @@ RectTransform:
   - {fileID: 1369985519}
   - {fileID: 717348149}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -50965,6 +52251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1854607239
 GameObject:
   m_ObjectHideFlags: 0
@@ -51220,7 +52507,7 @@ RectTransform:
   - {fileID: 1213083111}
   - {fileID: 1282706425}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -51239,6 +52526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1860053761
 GameObject:
   m_ObjectHideFlags: 0
@@ -51588,7 +52876,7 @@ RectTransform:
   - {fileID: 313508052}
   - {fileID: 2005366794}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -51607,6 +52895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1865267349
 GameObject:
   m_ObjectHideFlags: 0
@@ -52644,7 +53933,7 @@ RectTransform:
   - {fileID: 854684693}
   - {fileID: 686858515}
   m_Father: {fileID: 1609251492}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -52663,6 +53952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1949394572
 GameObject:
   m_ObjectHideFlags: 0
@@ -54172,7 +55462,7 @@ RectTransform:
   - {fileID: 63895594}
   - {fileID: 2007771787}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -54191,6 +55481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &1993972190
 GameObject:
   m_ObjectHideFlags: 0
@@ -54850,6 +56141,7 @@ GameObject:
   - component: {fileID: 2007771787}
   - component: {fileID: 2007771789}
   - component: {fileID: 2007771788}
+  - component: {fileID: 2007771790}
   m_Layer: 5
   m_Name: MarsExpressText
   m_TagString: Untagged
@@ -54909,9 +56201,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &2007771789
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54920,6 +56210,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007771786}
   m_CullTransparentMesh: 1
+--- !u!114 &2007771790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007771786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047940289654784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2007771788}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &2020577474
 GameObject:
   m_ObjectHideFlags: 0
@@ -54971,6 +56300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &2028198839
 GameObject:
   m_ObjectHideFlags: 0
@@ -56074,6 +57404,7 @@ GameObject:
   - component: {fileID: 2068241978}
   - component: {fileID: 2068241980}
   - component: {fileID: 2068241979}
+  - component: {fileID: 2068241981}
   m_Layer: 5
   m_Name: VikingText
   m_TagString: Untagged
@@ -56133,9 +57464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &2068241980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -56144,6 +57473,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068241977}
   m_CullTransparentMesh: 1
+--- !u!114 &2068241981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068241977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047966965428224
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2068241979}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &2082847374
 GameObject:
   m_ObjectHideFlags: 0
@@ -56195,6 +57563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &2084980537
 GameObject:
   m_ObjectHideFlags: 0
@@ -56645,6 +58014,7 @@ GameObject:
   - component: {fileID: 2097212708}
   - component: {fileID: 2097212710}
   - component: {fileID: 2097212709}
+  - component: {fileID: 2097212711}
   m_Layer: 5
   m_Name: MarsOdisseyText
   m_TagString: Untagged
@@ -56704,9 +58074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque
-    rutrum velit nec congue. Donec tincidunt scelerisque ultrices. Aliquam nec sem
-    tortor. Nulla ornare vehicula mi, non congue enim venenatis quis.
+  m_Text: 
 --- !u!222 &2097212710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -56715,6 +58083,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097212707}
   m_CullTransparentMesh: 1
+--- !u!114 &2097212711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097212707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:003797dc7020ced409def2d0bc90b281
+    m_TableEntryReference:
+      m_KeyId: 9047944886611968
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2097212709}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1 &2103318833
 GameObject:
   m_ObjectHideFlags: 0
@@ -56896,7 +58303,7 @@ RectTransform:
   - {fileID: 1115668207}
   - {fileID: 593247036}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -56915,6 +58322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &2121496350
 GameObject:
   m_ObjectHideFlags: 0
@@ -57395,7 +58803,7 @@ RectTransform:
   - {fileID: 547191405}
   - {fileID: 699220795}
   m_Father: {fileID: 669760897}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -57414,6 +58822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd98f3c459ac354495a8de4089bc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
 --- !u!1 &2131771306
 GameObject:
   m_ObjectHideFlags: 0

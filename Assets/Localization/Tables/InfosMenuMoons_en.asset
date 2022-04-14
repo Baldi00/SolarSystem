@@ -120,7 +120,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 9 375 km
 
       <b>Diameter:</b>
-      22.2 km'
+      22.2 km (0.006 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799532659994624
@@ -132,7 +132,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 23 458 km
 
       <b>Diameter:</b>
-      12.4 km'
+      12.4 km (0.003 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799623860940800
@@ -144,7 +144,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 421 700 km
 
       <b>Diameter:</b>
-      3 642.6 km'
+      3 642.6 km (1.05 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799625840652288
@@ -156,7 +156,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 671 034 km
 
       <b>Diameter:</b>
-      3 121.6 km'
+      3 121.6 km (0.9 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799627753254912
@@ -168,7 +168,9 @@ MonoBehaviour:
       <b>Planet distance:</b> 1 070 400 km
 
       <b>Diameter:</b>
-      5 262.4 km (biggest satellite of the Solar System)'
+      5 262.4 km (1.51 Moons)
+
+      Biggest satellite of the Solar System'
     m_Metadata:
       m_Items: []
   - m_Id: 9799670837145600
@@ -180,7 +182,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 1 882 700 km
 
       <b>Diameter:</b>
-      4 820.6 km'
+      4 820.6 km (1.38 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799672984629248
@@ -192,7 +194,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 185 539 km
 
       <b>Diameter:</b>
-      396.4 km'
+      396.4 km (0.11 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799675031449600
@@ -204,7 +206,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 238 020 km
 
       <b>Diameter:</b>
-      498.8 km'
+      498.8 km (0.14 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799677212487680
@@ -216,7 +218,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 294 619 km
 
       <b>Diameter:</b>
-      1 066 km'
+      1 066 km (0.3 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799679158644736
@@ -228,7 +230,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 377 396 km
 
       <b>Diameter:</b>
-      1 123,2 km'
+      1 123,2 km (0.32 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799681067053056
@@ -240,7 +242,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 527 040 km
 
       <b>Diameter:</b>
-      1 528 km'
+      1 528 km (0.44 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799683352948736
@@ -252,7 +254,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 1 221 830 km
 
       <b>Diameter:</b>
-      5 150 km'
+      5 150 km (1.49 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799685198442496
@@ -264,7 +266,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 3 560 851 km
 
       <b>Diameter:</b>
-      1 471 km'
+      1 471 km (0.42 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799687043936256
@@ -276,7 +278,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 190 900 km
 
       <b>Diameter:</b>
-      1 157.8 km'
+      1 157.8 km (0.33 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799688922984448
@@ -288,7 +290,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 266 000 km
 
       <b>Diameter:</b>
-      1 169.4 km'
+      1 169.4 km (0.33 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799690667814912
@@ -300,7 +302,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 435 910 km
 
       <b>Diameter:</b>
-      1 577.8 km'
+      1 577.8 km (0.45 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799692681080832
@@ -312,7 +314,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 583 519 km
 
       <b>Diameter:</b>
-      1 522.8 km'
+      1 522.8 km (0.43 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799694392356864
@@ -324,7 +326,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 129 872 km
 
       <b>Diameter:</b>
-      471.6 km'
+      471.6 km (0.14 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799696640503808
@@ -336,7 +338,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 354 760 km
 
       <b>Diameter:</b>
-      2 706.8 km'
+      2 706.8 km (0.78 Moons)'
     m_Metadata:
       m_Items: []
   - m_Id: 9799701778526208
@@ -348,7 +350,7 @@ MonoBehaviour:
       <b>Planet distance:</b> 19 571 km
 
       <b>Diameter:</b>
-      1 207 km'
+      1 207 km (0.35 Moons)'
     m_Metadata:
       m_Items: []
   references:

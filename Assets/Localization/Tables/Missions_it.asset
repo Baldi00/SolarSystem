@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 135495544832
-    m_Localized: Cassini
+    m_Localized: Cassini-Huygens
     m_Metadata:
       m_Items: []
   - m_Id: 147638054912
@@ -44,10 +44,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 203602653184
     m_Localized: Dawn
-    m_Metadata:
-      m_Items: []
-  - m_Id: 205485895680
-    m_Localized: Deep Space
     m_Metadata:
       m_Items: []
   - m_Id: 207465607168
@@ -144,6 +140,130 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 201857822720
     m_Localized: James Webb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047861201858560
+    m_Localized: "NASA/ESA/JAXA/CSA (2017-presente)\nScopo: far sbarcare \"la prima
+      donna e il prossimo uomo\" sulla Luna entro il 2024. Obiettivo a lungo termine
+      di stabilire una presenza autosufficiente sulla Luna, gettare le basi per le
+      societ\xE0 private per costruire un'economia lunare e infine mandare gli umani
+      su Marte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047853626945536
+    m_Localized: 'NASA (1961-1972)
+
+      Scopo: far atterrare un uomo sulla Luna.
+      Obiettivo raggiunto con la missione Apollo 11 il 20 Luglio 1969, gli astronauti
+      Neil Armstrong e Buzz Aldrin sbarcarono sulla Luna, mentre Michael Collins
+      rimase in orbita lunare'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047870194446336
+    m_Localized: 'NASA/ESA/ASI (1997-2017)
+
+      Scopo: Studiare Saturno, i suoi
+      anelli, la sua magnetosfera, le sue lune ghiacciate e Titano. La missione ha
+      avuto un successo ben oltre le aspettative, rivoluzionando le conoscenze del
+      sistema di Saturno.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047871133970432
+    m_Localized: 'NASA (1999-presente)
+
+      Scopo: osservazione del cielo nei raggi
+      X. Le scoperte fatte riguardano una maggiore comprensione delle supernovae,
+      dei buchi neri, degli ammassi stellari e delle galassie.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047872039940096
+    m_Localized: "NASA (2011-presente)\nScopo: investigare sulla passata e presente
+      capacit\xE0 di Marte di sostenere la vita."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047872882995200
+    m_Localized: 'NASA (2021-2022)
+
+      Scopo: verificare se l''impatto di un veicolo
+      possa deflettere con successo un asteroide in collisione con la Terra'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047873688301568
+    m_Localized: 'NASA (2007-2018)
+
+      Scopo: raggiungere ed esaminare il pianeta
+      nano Cerere e l''asteroide Vesta'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9058203751542784
+    m_Localized: Solar Orbiter (SOLO)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047875194056704
+    m_Localized: "ESA/Roscosmos (2016-presente)\nScopo: cercare tracce di vita passata
+      su Marte. Suddivisa in 2 parti, la prima lanciata nel 2016. La seconda parte
+      doveva essere lanciata nel 2022 ma a causa dell'invasione dell'Ucraina da parte
+      della Russia la missione \xE8 stata sospesa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047875999363072
+    m_Localized: 'NASA (1989-2003)
+
+      Scopo: studiare Giove e i suoi satelliti'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047876771115008
+    m_Localized: "NASA/ESA (1990-presente)\nE' uno dei telescopi spaziali pi\xF9
+      grandi e versatili, strumento di ricerca di estrema importanza. Tra le numerose
+      scoperte effettuate grazie ad esso vi sono l'et\xE0 pi\xF9 precisa dell'universo,
+      l'espansione dell'universo e l'esistenza dell'energia oscura"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047877580615680
+    m_Localized: "NASA (2020-presente)\nScopo: far volare il primo veicolo motorizzato
+      su un altro pianeta. Inizialmente prevista per durare solo un mese, la missione
+      \xE8 poi stata prorogata a tempo indeterminato."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047878352367616
+    m_Localized: 'NASA/RKA/ESA/CSA/JAXA (1998-presente)
+
+      Scopo: svolge principalmente
+      la funzione di laboratorio di ricerca scientifica in cui possono essere condotti
+      esperimenti di lunga durata in assenza di peso'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047879124119552
+    m_Localized: "NASA (2011-presente)\nScopo: misurare la composizione di Giove,
+      il campo gravitazionale, il campo magnetico e la magnetosfera polare. Cercare
+      indizi su come si \xE8 formato il pianeta, la quantit\xE0 di acqua presente
+      nell'atmosfera profonda, la distribuzione della massa e i suoi venti in profondit\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047879925231616
+    m_Localized: 'NASA (2009-2018)
+
+      Scopo: monitorare una porzione della nostra
+      regione della Via Lattea e scoprire dozzine di pianeti simili alla Terra vicino
+      o nella zona abitabile e determinare quante delle miliardi di stelle della
+      nostra galassia posseggano pianeti'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047880734732288
+    m_Localized: 'NASA (1966-1967)
+
+      Scopo: 5 sonde con il compito di eseguire
+      delle foto dell''intera superficie lunare. Tutte e cinque le missioni riuscirono
+      e in totale fu mappata il 99% della Luna.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047881540038656
+    m_Localized: 'NASA (1989-1994)
+
+      Scopo: mappare la superficie di Venere
+      e misurarne il campo gravitazionale. Ha fornito una migliore comprensione della
+      geologia venusiana e il ruolo di impatti, vulcanismo e della tettonica nella
+      formazione delle strutture superficiali.'
     m_Metadata:
       m_Items: []
   references:
