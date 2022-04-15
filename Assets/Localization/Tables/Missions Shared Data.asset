@@ -271,6 +271,38 @@ MonoBehaviour:
     m_Key: SolarOrbiterInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 9780280897253376
+    m_Key: AgencyInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784201288036352
+    m_Key: GreatObservatories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784389331267584
+    m_Key: MarsExploration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784472575619072
+    m_Key: OtherPlanetsExploration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9788945788252160
+    m_Key: OtherMissions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9790618673819648
+    m_Key: VostokTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9790619214884864
+    m_Key: VostokInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9798018881499136
+    m_Key: Milestones
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

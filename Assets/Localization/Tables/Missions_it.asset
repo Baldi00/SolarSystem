@@ -304,5 +304,145 @@ MonoBehaviour:
       \xE8 previsto il raggiungimento di una distanza di 100 UA dal Sole."
     m_Metadata:
       m_Items: []
+  - m_Id: 9780280897253376
+    m_Localized: 'NASA = Agenzia Spaziale degli Stati Uniti
+
+      ESA = Agenzia
+      Spaziale Europea
+
+      CSA = Agenzia Spaziale Canadese
+
+      Roscosmos (RKA)
+      = Agenzia Spaziale Russa
+
+      ASI = Agenzia Spaziale Italiana
+
+      JAXA
+      = Agenzia Spaziale Giapponese'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047955426897920
+    m_Localized: "NASA (2004-2019)\nScopo: esplorazione di Marte assieme al rover
+      gemello Spirit. Ha scoperto il primo meteorite caduto su un altro pianeta (Heat
+      Shield Rock), ha analizzato i crateri Victoria e Endeavour. E' ad oggi la missione
+      pi\xF9 longeva tra le missioni su Marte e ha percorso ben 42 km."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047964415291392
+    m_Localized: "NASA (2004-2011)\nScopo: esplorazione di Marte assieme al rover
+      gemello Opportunity. Aveva come obiettivo quello di cercare e catalogare una
+      variet\xE0 di rocce per determinare la distribuzione dei minerali e capire
+      se fossero riconducibili a eventi legati alla presenza di acqua e di vita"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047959184994304
+    m_Localized: 'NASA (2020-presente)
+
+      Scopo: esplorazione di Marte, identificazione
+      di ambienti in grado di sostenere la vita, ricerca di prove di precedente vita
+      microbica, raccolta di campioni di roccia e suolo da immagazzinare e testare
+      la produzione di ossigeno dall''atmosfera marziana per prepararsi a future
+      missioni con equipaggio'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047962775318528
+    m_Localized: "NASA (1958-1978)\nScopo: esplorazione dei pianeti del Sistema Solare.
+      Numerose furono le missioni, ma le pi\xF9 importanti e famose furono le Pioneer
+      10 e 11 che portarono all'esplorazione dei pianeti esterni e dello spazio oltre
+      il sistema solare con disegni e informazioni sugli umani destinate ad ogni
+      entit\xE0 extraterrestre che eventualmente un giorno le trovasse."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047963714842624
+    m_Localized: 'NASA (1981-2011)
+
+      Scopo: creare dei veicoli spaziali riutilizzabili.
+      Vennero utilizzati per il lancio e la manutenzione di satelliti, come laboratori
+      spaziali e messi al servizio delle stationi spaziali'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784201288036352
+    m_Localized: Grandi Osservatori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784389331267584
+    m_Localized: Esplorazione di Marte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9784472575619072
+    m_Localized: Esplorazione di altri Pianeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9788945788252160
+    m_Localized: Altre Missioni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047965090574336
+    m_Localized: "NASA (2003-2020)\nScopo: osservare l'Universo negli infrarossi.
+      Tra gli studi condotti grazie a Spitzer: planetologia, studio del processo
+      di formazione stellare, del mezzo interstellare della Via Lattea, osservazione
+      delle altre galassie fino ad arrivare a quelle pi\xF9 distanti e ancora in
+      formazione"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047965719719936
+    m_Localized: "Roscosmos (1957-1961)\nFurono una serie di missioni spaziali senza
+      esseri umani promosse dall'Unione Sovietica alla fine degli anni cinquanta
+      finalizzate alla messa in orbita di satelliti artificiali. Port\xF2 al lancio
+      del primo satellite della storia, lo Sputnik 1, avvenuto il 4 ottobre 1957,
+      e diede inizio all'epoca dell'esplorazione spaziale"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9790618673819648
+    m_Localized: Vostok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9790619214884864
+    m_Localized: "Roscosmos (1961-1963)\nFu il primo progetto sovietico di missioni
+      spaziali umane che riusc\xEC, per la prima volta nella storia, a portare un
+      uomo nello spazio, Yuri Gagarin. Ogni volo di questo programma rappresent\xF2
+      il raggiungimento di un importante traguardo per l'esplorazione spaziale. Vostok
+      6 port\xF2 la prima donna nello spazio (Valentina Tereskova)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047966965428224
+    m_Localized: 'NASA (1975-1983)
+
+      Scopo: esplorazione di Marte. Ottenere
+      immagini ad alta risoluzione di Marte, caratterizzare la struttura e la composizione
+      dell''atmosfera e della superficie e ricercare tracce di vita aliena. Era composta
+      da due sonde, Viking 1 e 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047969213575168
+    m_Localized: "NASA (1977-presente)\nScopo: esplorazione del sistema solare esterno
+      (Giove, Saturno, Urano e Nettuno). A differenza delle sonde Pioneer, ormai
+      non pi\xF9 funzionanti, entrambe le sonde Voyager continuano a trasmettere
+      dati alle stazioni a Terra mentre stanno viaggiando verso l'esterno del sistema
+      solare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9058205957746688
+    m_Localized: 'NASA/ESA (2020-presente)
+
+      Scopo: osservazione e studio del
+      Sole. Le misurazioni includono il plasma, il campo magnetico, le onde e le
+      particelle energetiche del vento solare.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047971629494272
+    m_Localized: "NASA/ESA/CSA (2021-presente)\nIl pi\xF9 grande e potente telescopio
+      creato fino ad ora. Essendo un telescopio ad infrarossi consentir\xE0 di studiare
+      la struttura dell'Universo su grande scala, approfondire gli studi su materia
+      ed energia oscura, osservare l'origine e l'evoluzione delle prime galassie
+      mai nate, penetrare all'interno delle nebulose per osservare la nascita di
+      stelle e pianeti, ricercare tracce di vita biologica all'interno delle atmosfere
+      di pianeti in altri sistemi stellari"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9798018881499136
+    m_Localized: Traguardi
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
