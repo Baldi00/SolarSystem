@@ -373,6 +373,7 @@ public class GameManager : MonoBehaviour
         planetsInOrbit.SetActive(true);
         movingToOrbits = true;
         freeCam.enabled = false;
+        freeCam.movementSpeed = 100;
         freeCam.fastMovementSpeed = 1000;
         mainCameraTransition.MoveTo(orbitsTransform);
     }
