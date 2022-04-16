@@ -274,7 +274,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9047940289654784
-    m_Localized: "ESA (2003-presente)\nScopo: esplorazione di Marte. ha prodotto
+    m_Localized: "ESA (2003-presente)\nScopo: esplorazione di Marte. Ha prodotto
       la prima prova diretta della presenza di acqua su Marte nel polo sud del pianeta.
       Ha individuato metano nell'atmosfera sopra la zona equatoriale e la presenza
       di ghiaccio sotterraneo ad indicare una passata attivit\xE0 vulcanica o una
@@ -346,11 +346,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9047962775318528
-    m_Localized: "NASA (1958-1978)\nScopo: esplorazione dei pianeti del Sistema Solare.
-      Numerose furono le missioni, ma le pi\xF9 importanti e famose furono le Pioneer
-      10 e 11 che portarono all'esplorazione dei pianeti esterni e dello spazio oltre
-      il sistema solare con disegni e informazioni sugli umani destinate ad ogni
-      entit\xE0 extraterrestre che eventualmente un giorno le trovasse."
+    m_Localized: "NASA (1958-1978)\r\nScopo: esplorazione dei pianeti del Sistema
+      Solare. Numerose furono le missioni, ma le pi\xF9 importanti e famose furono
+      le Pioneer 10 e 11 che portarono all'esplorazione dei pianeti esterni e dello
+      spazio oltre il sistema solare portando con se disegni e informazioni sugli
+      umani destinate ad ogni entit\xE0 extraterrestre che eventualmente un giorno
+      le trovasse."
     m_Metadata:
       m_Items: []
   - m_Id: 9047963714842624
@@ -437,7 +438,7 @@ MonoBehaviour:
       ed energia oscura, osservare l'origine e l'evoluzione delle prime galassie
       mai nate, penetrare all'interno delle nebulose per osservare la nascita di
       stelle e pianeti, ricercare tracce di vita biologica all'interno delle atmosfere
-      di pianeti in altri sistemi stellari"
+      di pianeti in altri sistemi stellari e molto altro.\n\n\n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 9798018881499136

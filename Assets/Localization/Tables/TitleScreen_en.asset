@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 4159303680
-    m_Localized: Sizes
+    m_Localized: Dimensions
     m_Metadata:
       m_Items: []
   - m_Id: 6973681664
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9662230528
-    m_Localized: Infos
+    m_Localized: Information
     m_Metadata:
       m_Items: []
   - m_Id: 11872628736

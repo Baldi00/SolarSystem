@@ -145,11 +145,19 @@ MonoBehaviour:
   - m_Id: 9047861201858560
     m_Localized: 'NASA/ESA/JAXA/CSA (2017-present)
 
-'
+      Purpose: to land "the first
+      woman and the next man" on the moon by 2024. Long-term goal of establishing
+      a self-sustaining presence on the moon, laying the foundations for private
+      companies to build a lunar economy, and ultimately sending humans to Mars.'
     m_Metadata:
       m_Items: []
   - m_Id: 9047853626945536
-    m_Localized: NASA (1961-1972)
+    m_Localized: 'NASA (1961-1972)
+
+      Purpose: to land a man on the moon. Objective
+      achieved with the Apollo 11 mission on July 20, 1969, astronauts Neil Armstrong
+      and Buzz Aldrin landed on the moon, while Michael Collins remained in lunar
+      orbit'
     m_Metadata:
       m_Items: []
   - m_Id: 9058203751542784
@@ -194,6 +202,275 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 9798018881499136
     m_Localized: Milestones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047870194446336
+    m_Localized: 'NASA/ESA/ASI (1997-2017)
+
+      Purpose: To study Saturn, its rings,
+      its magnetosphere, its icy moons and Titan. The mission was successful well
+      beyond expectations, revolutionizing knowledge of the Saturn system.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047871133970432
+    m_Localized: 'NASA (1999-present)
+
+      Purpose: observation of the sky in X-rays.
+      The discoveries made concern a greater understanding of supernovae, black holes,
+      star clusters and galaxies.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047872039940096
+    m_Localized: 'NASA (2011-present)
+
+      Purpose: To investigate the past and
+      present ability of Mars to sustain life.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047872882995200
+    m_Localized: 'NASA (2021-2022)
+
+      Purpose: to verify whether the impact of
+      a vehicle can successfully deflect an asteroid colliding with the Earth'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047873688301568
+    m_Localized: 'NASA (2007-2018)
+
+      Purpose: to reach and examine the dwarf
+      planet Ceres and the asteroid Vesta'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047875194056704
+    m_Localized: 'ESA/Roscosmos (2016-present)
+
+      Purpose: to look for traces
+      of past life on Mars. Divided into 2 parts, the first launched in 2016. The
+      second part was to be launched in 2022 but due to the invasion of Ukraine by
+      Russia the mission was suspended.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047875999363072
+    m_Localized: 'NASA (1989-2003)
+
+      Purpose: to study Jupiter and its satellites'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047876771115008
+    m_Localized: 'NASA/ESA (1990 - present)
+
+      It is one of the largest and most
+      versatile space telescopes, an extremely important research tool. Among the
+      numerous discoveries made thanks to it are the most precise age of the universe,
+      the expansion of the universe and the existence of dark energy'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047877580615680
+    m_Localized: 'NASA (2020-present)
+
+      Purpose: to fly the first motorized
+      vehicle to another planet. Initially scheduled to last only a month, the mission
+      was then extended indefinitely.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047878352367616
+    m_Localized: 'NASA/RKA/ESA/CSA/JAXA (1998-present)
+
+      Purpose: Mainly performs
+      the function of a scientific research laboratory in which long-term experiments
+      in weightlessness can be conducted'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047879124119552
+    m_Localized: 'NASA (2011 - present)
+
+      Purpose: to measure the composition
+      of Jupiter, the gravitational field, the magnetic field and the polar magnetosphere.
+      Look for clues as to how the planet was formed, the amount of water in the
+      deep atmosphere, the distribution of mass and its deep winds'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047879925231616
+    m_Localized: 'NASA (2009-2018)
+
+      Purpose: To monitor a portion of our Milky
+      Way region and discover dozens of Earth-like planets near or in the habitable
+      zone and determine how many of our galaxy''s billions of stars have planets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047880734732288
+    m_Localized: 'NASA (1966-1967)
+
+      Purpose: 5 probes with the task of taking
+      photos of the entire lunar surface. All five missions succeeded and in total
+      99% of the Moon was mapped.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047881540038656
+    m_Localized: 'NASA (1989-1994)
+
+      Purpose: to map the surface of Venus and
+      measure its gravitational field. It provided a better understanding of Venusian
+      geology and the role of impacts, volcanism and tectonics in the formation of
+      surface structures.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047882345345024
+    m_Localized: 'NASA (1962-1973)
+
+      Purpose: exploration of Mars (Mariner 3,4,6,7,8,9),
+      Venus (1,2,5,10) and Mercury (10).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047940289654784
+    m_Localized: 'ESA (2003-present)
+
+      Purpose: exploration of Mars. It produced
+      the first direct evidence of the presence of water on Mars in the planet''s
+      south pole. It identified methane in the atmosphere above the equatorial zone
+      and the presence of underground ice indicating a past volcanic activity or
+      a past presence of microorganisms.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047944886611968
+    m_Localized: 'NASA (2001-present)
+
+      Purpose: exploration of Mars. The mission
+      involves the use of spectrometers and thermal cameras to detect the presence
+      of liquid water or ice, study the geology of the planet and analyze the radiation
+      that surrounds it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047948678262784
+    m_Localized: 'NASA (1996-1997)
+
+      Purpose: exploration of Mars. It was the
+      first mission to have transported a rover, Sojourner, to the planet. The lander
+      operated as a weather station, while the rover analyzed the soil and rocks
+      at the landing site and performed several surface experiments.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047951832379392
+    m_Localized: 'NASA (2006-present)
+
+      Purpose: exploration of Pluto and its
+      satellite Charon. Launched in 2006, it reached Pluto in 2015. It is now traveling
+      to the outermost parts of the solar system. A distance of 100 AU from the Sun
+      is expected to be reached by December 2038.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047955426897920
+    m_Localized: 'NASA (2004-2019)
+
+      Purpose: exploration of Mars together
+      with the twin rover Spirit. He discovered the first meteorite that fell on
+      another planet (Heat Shield Rock), analyzed the Victoria and Endeavor craters.
+      It is to date the longest-running mission among the missions to Mars and has
+      covered 42 km.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047959184994304
+    m_Localized: 'NASA (2020-present)
+
+      Purpose: Exploration of Mars, identification
+      of environments capable of supporting life, finding evidence of previous microbial
+      life, collecting rock and soil samples to store and testing the production
+      of oxygen from the Martian atmosphere to prepare for future manned missions'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047962775318528
+    m_Localized: 'NASA (1958-1978)
+
+      Purpose: exploration of the planets of
+      the Solar System. There were numerous missions, but the most important and
+      famous were the Pioneer 10 and 11 which led to the exploration of the outer
+      planets and space beyond the solar system, bringing with them drawings and
+      information on humans intended for every extraterrestrial entity that eventually
+      one day found.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047963714842624
+    m_Localized: 'NASA (1981-2011)
+
+      Scopo: creare dei veicoli spaziali riutilizzabili.
+      Vennero utilizzati per il lancio e la manutenzione di satelliti, come laboratori
+      spaziali e messi al servizio delle stationi spaziali'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047964415291392
+    m_Localized: 'NASA (2004-2011)
+
+      Purpose: exploration of Mars together with
+      the twin rover Opportunity. Its goal was to search and catalog a variety of
+      rocks to determine the distribution of minerals and understand if they were
+      attributable to events related to the presence of water and life.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047965090574336
+    m_Localized: 'NASA (2003-2020)
+
+      Purpose: to observe the Universe in infrared.
+      Among the studies conducted thanks to Spitzer: planetology, study of the star
+      formation process, of the interstellar medium of the Milky Way, observation
+      of other galaxies up to the most distant and still forming ones'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047965719719936
+    m_Localized: 'Roscosmos (1957-1961)
+
+      They were a series of space missions
+      without human beings promoted by the Soviet Union in the late 1950s aimed at
+      putting artificial satellites into orbit. It led to the launch of the first
+      satellite in history, Sputnik 1, which took place on October 4, 1957, and started
+      the era of space exploration'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047966965428224
+    m_Localized: 'NASA (1975-1983)
+
+      Purpose: exploration of Mars. Obtain high-resolution
+      images of Mars, characterize the structure and composition of the atmosphere
+      and surface, and search for traces of alien life. It consisted of two probes,
+      Viking 1 and 2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047969213575168
+    m_Localized: 'NASA (1977-present)
+
+      Purpose: exploration of the outer solar
+      system (Jupiter, Saturn, Uranus and Neptune). Unlike Pioneer probes, which
+      are no longer functional, both Voyager probes continue to transmit data to
+      stations on Earth as they are traveling out of the solar system.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047971629494272
+    m_Localized: 'NASA/ESA/CSA (2021-present)
+
+      The largest and most powerful
+      telescope ever created. Being an infrared telescope it will allow us to study
+      the structure of the Universe on a large scale, deepen the studies on dark
+      matter and energy, observe the origin and evolution of the first galaxies ever
+      born, penetrate inside the nebulae to observe the birth of stars and planets,
+      search for traces of biological life within the atmospheres of planets in other
+      star systems and much more.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9058205957746688
+    m_Localized: 'NASA/ESA (2020-present)
+
+      Purpose: observation and study of
+      the sun. Measurements include the plasma, magnetic field, waves and energetic
+      particles of the solar wind.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9790619214884864
+    m_Localized: 'Roscosmos (1961-1963)
+
+      It was the first Soviet human space
+      mission project that succeeded, for the first time in history, in bringing
+      a man into space, Yuri Gagarin. Each flight of this program represented the
+      achievement of an important milestone for space exploration. Vostok 6 took
+      the first woman into space (Valentina Tereskova).'
     m_Metadata:
       m_Items: []
   references:
